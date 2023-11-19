@@ -17,7 +17,7 @@ public class Register {
     public void sendPostRegisterHttpRequest() {
         JSONObject requestBody = new JSONObject();
         requestBody.put("fullname", "persondong");
-        requestBody.put("email", "someone1@gmail.com");
+        requestBody.put("email", "someones@gmail.com");
         requestBody.put("password", "owaahjrgjhhhhh");
         requestBody.put("confirm_password", "owaahjrgjhhhhh");
 

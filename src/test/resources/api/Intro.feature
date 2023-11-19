@@ -18,4 +18,19 @@ Feature: Itro
     When I send POST Register HTTP request3
     Then I receive POST Register valid HTTP response code 400
 
-  
+  Scenario: Post - As admin I Can Login Endpoint with Correct Data
+    Given I set POST Login Endpoint
+    When I send POST Login HTTP request
+    Then I receive POST Login valid HTTP response code 200
+
+  Scenario: Get - As admin I Can Login Endpoint with Wrong HTTP Request
+    Given I set Get Login Endpoint With Wrong HTTP Request
+    When I send Get Login HTTP request2
+    Then I receive Get Login valid HTTP response code 405
+
+  Scenario: Post - As admin I Can Login Endpoint with Wrong Body
+    Given I set POST Login Endpoint with Wrong Body
+    When I send POST Login HTTP request3
+    Then I receive POST Login valid HTTP response code 400
+
+
