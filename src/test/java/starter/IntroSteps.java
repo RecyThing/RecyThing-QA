@@ -2,6 +2,7 @@ package starter;
 
 import Intro.ForgotPassword;
 import Intro.Login;
+import Intro.NewPassword;
 import Intro.Register;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -15,6 +16,8 @@ public class IntroSteps {
     Login login;
     @Steps
     ForgotPassword fp;
+    @Steps
+    NewPassword np;
 
     @Given("I set POST Register Endpoint")
     public void setRegisterEndpoint() {
@@ -150,4 +153,49 @@ public class IntroSteps {
     public void validateResetPasswordHttpResponseCode400(){
         fp.validateResetPasswordHttpResponseCode400();
     }
+
+//    @Given("I set Patch Make New Password Endpoint")
+//    public void setNewPasswordEndpoint1() {
+//        np.setNewPasswordEndpoint1();
+//    }
+//
+//    @When("I send Patch Make New Password request")
+//    public void sendPatchNewPasswordHttpRequest() {
+//        np.sendPatchNewPasswordHttpRequest();
+//    }
+//
+//    @Then("I receive Patch Make New Password HTTP response code 200")
+//    public void receivePatchMakeNewPasswordHttpResponseCode200(){
+//        np.receivePatchMakeNewPasswordHttpResponseCode200();
+//    }
+//
+//    @Given("I set Post Make New Password with Wrong HTTP Request")
+//    public void setNewPasswordEndpoint() {
+//        np.setNewPasswordEndpoint();
+//    }
+//
+//    @When("I send Post Make New Password HTTP request2")
+//    public void sendPostNewPasswordHttpRequest2() {
+//        np.sendPostNewPasswordHttpRequest2();
+//    }
+//
+//    @Then("I receive Post Make New Password valid HTTP response code 405")
+//    public void receivePostNewPasswordHttpResponseCode405(){
+//        np.receivePostNewPasswordHttpResponseCode405();
+//    }
+//
+//    @Given("I set Patch Make New Password with Wrong Body")
+//    public void setNewPasswordApiEndpoint3() {
+//        np.setNewPasswordApiEndpoint3();
+//    }
+//
+//    @When("I send Patch Make New Password HTTP request3")
+//    public void sendNewPasswordHttpRequest3() {
+//        np.sendNewPasswordHttpRequest3();
+//    }
+//
+//    @Then("I receive Patch Make New Password valid HTTP response code 400")
+//    public void validateNewPasswordHttpResponseCode400(){
+//        np.validateNewPasswordHttpResponseCode400();
+//    }
 }

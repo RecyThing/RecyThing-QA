@@ -17,7 +17,7 @@ public class ForgotPassword {
     public void sendPostResetPasswordHttpRequest() {
         JSONObject requestBody = new JSONObject();
 
-        requestBody.put("email", "recythinguser@gmail.com");
+        requestBody.put("email", "ahmad@example.com");
 
 
         SerenityRest.given().contentType("application/json").body(requestBody.toJSONString()).post(setResetPasswordEndpoint());
@@ -54,7 +54,7 @@ public class ForgotPassword {
     @Step("I send POST Reset Password HTTP request3")
     public void sendResetPasswordHttpRequest3() {
         JSONObject requestBody = new JSONObject();
-        requestBody.put("email", "recythingusergmail.com");
+        requestBody.put("email", "ahmad@example.com");
 
 
         SerenityRest.given()
