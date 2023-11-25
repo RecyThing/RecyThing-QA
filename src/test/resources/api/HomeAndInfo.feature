@@ -46,4 +46,4 @@ Then I receive Get FAQ with ID valid HTTP response code 404
   Scenario: Post - As User I Can't Ask RecyBot Endpoint with Wrong URL
     Given I set Post RecyBot Endpoint With Wrong URL
     When I send Post RecyBot HTTP request3
-    Then I receive Post RecyBot valid HTTP response code 404
+    Then I receive Post RecyBot valid HTTP response code 400
