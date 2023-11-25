@@ -17,8 +17,8 @@ public class Login {
     public void sendPostLoginHttpRequest() {
         JSONObject requestBody = new JSONObject();
 
-        requestBody.put("email", "recythinguser@gmail.com");
-        requestBody.put("password", "recything003");
+        requestBody.put("email", "ahmad@example.com");
+        requestBody.put("password", "12345678");
 
         SerenityRest.given().contentType("application/json").body(requestBody.toJSONString()).post(setLoginEndpoint());
     }
