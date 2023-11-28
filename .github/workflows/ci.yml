@@ -2,7 +2,7 @@ name: API Automation JAVA + Maven
 
 on:
   push:
-    branches: [ master ]
+    branches: [ WinandaBranch ]
   pull_request:
     branches: [ master ]
 
