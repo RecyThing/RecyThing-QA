@@ -1,14 +1,14 @@
 package starter.stepdefinitions;
 
-import Login.Login;
+import API_Web.LoginAdmin.LoginAdmin;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import net.thucydides.core.annotations.Steps;
 
-public class LoginSteps {
+public class LoginAdminSteps {
     @Steps
-    Login login;
+    LoginAdmin login;
 
     @Given("I set POST method with valid endpoint and body requests Login Admin")
     public void setLoginAPIs1(){

@@ -1,4 +1,4 @@
-package Login;
+package API_Web.LoginAdmin;
 
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Step;
@@ -6,7 +6,7 @@ import org.json.simple.JSONObject;
 
 import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 
-public class Login {
+public class LoginAdmin {
     protected String url = "https://api.recything.my.id/admins/login";
 
     @Step("I set POST method with valid endpoint and body requests Login Admin")
