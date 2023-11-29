@@ -17,7 +17,7 @@ public class GetAllUsers {
     @Step("I send GET for All User endpoint requests to connect to APIs MU1")
     public void sendGetAllUsers1(){
         SerenityRest.given()
-                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDEyNjg0MzgsImlkIjoiMGM5N2UxN2UtZDFiZS00YjU0LWE0MGMtNzgwOThjNTcxNGFjIiwicm9sZSI6InN1cGVyX2FkbWluIn0.5orzYcR_3E5V5HWK1qz7MOkL2ReLFNs8wlz_j6M7Vs0")
+                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDEzMTExMDgsImlkIjoiMGM5N2UxN2UtZDFiZS00YjU0LWE0MGMtNzgwOThjNTcxNGFjIiwicm9sZSI6InN1cGVyX2FkbWluIn0.NDvUjBLEjPDF4uxjv7dA9Ko4nKwn6dA2iiUIwc_aQhM")
                 .when().get(setGetAllUsers1());
     }
 
@@ -38,7 +38,7 @@ public class GetAllUsers {
         requestBody.put("id", "4a8617e7-2653-4966-9f6f-6242d3085b9e");
 
         SerenityRest.given()
-                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDEyNjg0MzgsImlkIjoiMGM5N2UxN2UtZDFiZS00YjU0LWE0MGMtNzgwOThjNTcxNGFjIiwicm9sZSI6InN1cGVyX2FkbWluIn0.5orzYcR_3E5V5HWK1qz7MOkL2ReLFNs8wlz_j6M7Vs0")
+                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDEzMTExMDgsImlkIjoiMGM5N2UxN2UtZDFiZS00YjU0LWE0MGMtNzgwOThjNTcxNGFjIiwicm9sZSI6InN1cGVyX2FkbWluIn0.NDvUjBLEjPDF4uxjv7dA9Ko4nKwn6dA2iiUIwc_aQhM")
                 .contentType("application/json").body(requestBody.toJSONString()).post(setGetAllUsers2());
     }
 

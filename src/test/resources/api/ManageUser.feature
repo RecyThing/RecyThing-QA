@@ -14,7 +14,7 @@ Feature: Manage User
     Then I receive HTTP response code 404 for view All User
 
   Scenario: GET - As an Admin, I can view User By ID with Valid Request
-    Given I set GET method to view All Users with valid request
+    Given I set GET method to view User By ID with valid request
     When I send GET for User By ID endpoint requests to connect to APIs MU2
     Then I receive HTTP response code 200 for view User By ID
 

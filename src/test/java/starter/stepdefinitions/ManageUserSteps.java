@@ -29,7 +29,7 @@ public class ManageUserSteps {
     }
 
     @Then("I receive HTTP response code 200 for view All User")
-    public void receiveLoginAPIs1(){
+    public void receiveAllUsersAPIs1(){
         MU1.receiveAllUserResp1();
     }
 
@@ -48,8 +48,8 @@ public class ManageUserSteps {
         MU1.receiveAllUserResp2();
     }
 
-    @Given("I set GET method to view All Users with valid request")
-    public void setAllUserByIDAPIs1(){
+    @Given("I set GET method to view User By ID with valid request")
+    public void setUserByIDAPIs1(){
         MU2.setGetUser1();
     }
 
@@ -64,7 +64,7 @@ public class ManageUserSteps {
     }
 
     @Given("I set POST method to view User By ID with invalid request method")
-    public void setAllUserByIDAPIs2(){
+    public void setUserByIDAPIs2(){
         MU2.setGetUser2();
     }
 

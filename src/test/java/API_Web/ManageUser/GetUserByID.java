@@ -7,9 +7,9 @@ import org.json.simple.JSONObject;
 import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 
 public class GetUserByID {
-    protected String url = "https://api.recything.my.id/admins/manage/users/4a8617e7-2653-4966-9f6f-6242d3085b9e";
+    protected String url = "https://api.recything.my.id/admins/manage/users/635c4156-5245-412d-a918-3e52fc4d81b0";
 
-    @Step("I set GET method to view All Users with valid request")
+    @Step("I set GET method to view User By ID with valid request")
     public String setGetUser1(){
         return url;
     }
@@ -17,7 +17,7 @@ public class GetUserByID {
     @Step("I send GET for User By ID endpoint requests to connect to APIs MU2")
     public void sendGetUser1(){
         SerenityRest.given()
-                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDEyNjg0MzgsImlkIjoiMGM5N2UxN2UtZDFiZS00YjU0LWE0MGMtNzgwOThjNTcxNGFjIiwicm9sZSI6InN1cGVyX2FkbWluIn0.5orzYcR_3E5V5HWK1qz7MOkL2ReLFNs8wlz_j6M7Vs0")
+                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDEzMTExMDgsImlkIjoiMGM5N2UxN2UtZDFiZS00YjU0LWE0MGMtNzgwOThjNTcxNGFjIiwicm9sZSI6InN1cGVyX2FkbWluIn0.NDvUjBLEjPDF4uxjv7dA9Ko4nKwn6dA2iiUIwc_aQhM")
                 .when().get(setGetUser1());
     }
 
@@ -38,7 +38,7 @@ public class GetUserByID {
         requestBody.put("id", "4a8617e7-2653-4966-9f6f-6242d3085b9e");
 
         SerenityRest.given()
-                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDEyNjg0MzgsImlkIjoiMGM5N2UxN2UtZDFiZS00YjU0LWE0MGMtNzgwOThjNTcxNGFjIiwicm9sZSI6InN1cGVyX2FkbWluIn0.5orzYcR_3E5V5HWK1qz7MOkL2ReLFNs8wlz_j6M7Vs0")
+                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDEzMTExMDgsImlkIjoiMGM5N2UxN2UtZDFiZS00YjU0LWE0MGMtNzgwOThjNTcxNGFjIiwicm9sZSI6InN1cGVyX2FkbWluIn0.NDvUjBLEjPDF4uxjv7dA9Ko4nKwn6dA2iiUIwc_aQhM")
                 .contentType("application/json").body(requestBody.toJSONString()).post(setGetUser2());
     }
 
