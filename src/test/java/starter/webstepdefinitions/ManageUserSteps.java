@@ -1,4 +1,4 @@
-package starter.stepdefinitions;
+package starter.webstepdefinitions;
 
 import API_Web.ManageUser.DeleteUser;
 import API_Web.ManageUser.GetAllUsers;

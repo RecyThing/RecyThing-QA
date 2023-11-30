@@ -1,4 +1,4 @@
-package starter.stepdefinitions;
+package starter.webstepdefinitions;
 
 import API_Web.ManageAdmin.DeleteAdmin;
 import API_Web.ManageAdmin.GetAllAdmin;

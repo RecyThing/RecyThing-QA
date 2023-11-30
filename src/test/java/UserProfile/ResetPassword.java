@@ -17,13 +17,13 @@ public class ResetPassword {
     public void sendPatchRPOPPHttpRequest() {
         JSONObject requestBody = new JSONObject();
 
-        requestBody.put("password", "12345678");
-        requestBody.put("new_password", "123456789");
-        requestBody.put("confirm_password", "123456789");
+        requestBody.put("password", "123456789");
+        requestBody.put("new_password", "12345678");
+        requestBody.put("confirm_password", "12345678");
 
 
         SerenityRest.given()
-                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDA5NTIzMjMsImlkIjoiZGYwNmU5ZjctYzBmZS00MDcyLThjN2YtMTA1OGIxNDcxYzEyIiwicm9sZSI6IiJ9.ydbBVN_D6EyGqJPu6qyTB-4noFuurNy7Ushhp7bQMRA")
+                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDEzMzk0ODMsImlkIjoiZGYwNmU5ZjctYzBmZS00MDcyLThjN2YtMTA1OGIxNDcxYzEyIiwicm9sZSI6IiJ9.tcxYCrZIiigNvYZlUuRyohvEIRyiiyWk-1BGgT5e7Uc")
                 .contentType("application/json").body(requestBody.toJSONString()).patch(setRPOPPEndpoint1());
     }
 
@@ -47,7 +47,7 @@ public class ResetPassword {
 
 
         SerenityRest.given()
-                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDA5NTIzMjMsImlkIjoiZGYwNmU5ZjctYzBmZS00MDcyLThjN2YtMTA1OGIxNDcxYzEyIiwicm9sZSI6IiJ9.ydbBVN_D6EyGqJPu6qyTB-4noFuurNy7Ushhp7bQMRA")
+                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDEzMzk0ODMsImlkIjoiZGYwNmU5ZjctYzBmZS00MDcyLThjN2YtMTA1OGIxNDcxYzEyIiwicm9sZSI6IiJ9.tcxYCrZIiigNvYZlUuRyohvEIRyiiyWk-1BGgT5e7Uc")
                 .contentType("application/json").body(requestBody.toJSONString()).post(setRPOPPEndpoint());
     }
 
@@ -71,7 +71,7 @@ public class ResetPassword {
 
 
         SerenityRest.given()
-                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDA5NTIzMjMsImlkIjoiZGYwNmU5ZjctYzBmZS00MDcyLThjN2YtMTA1OGIxNDcxYzEyIiwicm9sZSI6IiJ9.ydbBVN_D6EyGqJPu6qyTB-4noFuurNy7Ushhp7bQMRA")
+                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDEzMzk0ODMsImlkIjoiZGYwNmU5ZjctYzBmZS00MDcyLThjN2YtMTA1OGIxNDcxYzEyIiwicm9sZSI6IiJ9.tcxYCrZIiigNvYZlUuRyohvEIRyiiyWk-1BGgT5e7Uc")
                 .when()
                 .patch(setRPOPPasswordApiEndpoint3());
 

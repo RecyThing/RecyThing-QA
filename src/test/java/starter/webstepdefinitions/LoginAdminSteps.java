@@ -1,4 +1,4 @@
-package starter.stepdefinitions;
+package starter.webstepdefinitions;
 
 import API_Web.LoginAdmin.LoginAdmin;
 import io.cucumber.java.en.Given;

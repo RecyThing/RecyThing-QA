@@ -17,8 +17,8 @@ public class LoginAdmin {
     @Step("I send Login requests to connect to APIs L1")
     public void sendLoginAdminReq1(){
         JSONObject requestBody = new JSONObject();
-        requestBody.put("email", "admin@gmail.com");
-        requestBody.put("password", "12345678");
+        requestBody.put("email", "superadmin@gmail.com");
+        requestBody.put("password", "123456");
 
         SerenityRest.given().contentType("application/json").body(requestBody.toJSONString()).post(setValidLoginAdminReq());
     }
