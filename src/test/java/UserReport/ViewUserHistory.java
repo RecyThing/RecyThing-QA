@@ -16,7 +16,7 @@ public class ViewUserHistory {
     public void sendGetViewUserProfile() {
         SerenityRest.given()
                 .header("Authorization",
-                        "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDA5NTIzMjMsImlkIjoiZGYwNmU5ZjctYzBmZS00MDcyLThjN2YtMTA1OGIxNDcxYzEyIiwicm9sZSI6IiJ9.ydbBVN_D6EyGqJPu6qyTB-4noFuurNy7Ushhp7bQMRA")
+                        "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDEzMzk0ODMsImlkIjoiZGYwNmU5ZjctYzBmZS00MDcyLThjN2YtMTA1OGIxNDcxYzEyIiwicm9sZSI6IiJ9.tcxYCrZIiigNvYZlUuRyohvEIRyiiyWk-1BGgT5e7Uc")
                 .when()
                 .get(setGetViewUserHistory());
     }
@@ -39,7 +39,7 @@ public class ViewUserHistory {
 
 
         SerenityRest.given()
-                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDA5NTIzMjMsImlkIjoiZGYwNmU5ZjctYzBmZS00MDcyLThjN2YtMTA1OGIxNDcxYzEyIiwicm9sZSI6IiJ9.ydbBVN_D6EyGqJPu6qyTB-4noFuurNy7Ushhp7bQMRA")
+                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDEzMzk0ODMsImlkIjoiZGYwNmU5ZjctYzBmZS00MDcyLThjN2YtMTA1OGIxNDcxYzEyIiwicm9sZSI6IiJ9.tcxYCrZIiigNvYZlUuRyohvEIRyiiyWk-1BGgT5e7Uc")
                 .contentType("application/json").body(requestBody.toJSONString()).post(setViewUserHistoryEndpoint());
     }
 
@@ -55,7 +55,7 @@ public class ViewUserHistory {
     @Step("I send Get View User History HTTP request3")
     public void sendGetViewUserHistoryHttpRequest2() {
         SerenityRest.given()
-                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDA5NTIzMjMsImlkIjoiZGYwNmU5ZjctYzBmZS00MDcyLThjN2YtMTA1OGIxNDcxYzEyIiwicm9sZSI6IiJ9.ydbBVN_D6EyGqJPu6qyTB-4noFuurNy7Ushhp7bQMRA")
+                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDEzMzk0ODMsImlkIjoiZGYwNmU5ZjctYzBmZS00MDcyLThjN2YtMTA1OGIxNDcxYzEyIiwicm9sZSI6IiJ9.tcxYCrZIiigNvYZlUuRyohvEIRyiiyWk-1BGgT5e7Uc")
                 .when()
                 .get(setWrongViewUserHistoryHTTP());
     }
