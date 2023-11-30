@@ -16,7 +16,7 @@ public class ViewUserHistoryByID {
     public void sendGetViewUserHistoryByID() {
         SerenityRest.given()
                 .header("Authorization",
-                        "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDEzMzk0ODMsImlkIjoiZGYwNmU5ZjctYzBmZS00MDcyLThjN2YtMTA1OGIxNDcxYzEyIiwicm9sZSI6IiJ9.tcxYCrZIiigNvYZlUuRyohvEIRyiiyWk-1BGgT5e7Uc")
+                        "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDEzODUyODksImlkIjoiZGYwNmU5ZjctYzBmZS00MDcyLThjN2YtMTA1OGIxNDcxYzEyIiwicm9sZSI6IiJ9.Ocs1g1vooXaQoScUzh538mAZVeAyCXWwpoIe17L2kQ0")
                 .when()
                 .get(setGetViewUserHistoryByID());
     }
@@ -39,7 +39,7 @@ public class ViewUserHistoryByID {
 
 
         SerenityRest.given()
-                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDEzMzk0ODMsImlkIjoiZGYwNmU5ZjctYzBmZS00MDcyLThjN2YtMTA1OGIxNDcxYzEyIiwicm9sZSI6IiJ9.tcxYCrZIiigNvYZlUuRyohvEIRyiiyWk-1BGgT5e7Uc")
+                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDEzODUyODksImlkIjoiZGYwNmU5ZjctYzBmZS00MDcyLThjN2YtMTA1OGIxNDcxYzEyIiwicm9sZSI6IiJ9.Ocs1g1vooXaQoScUzh538mAZVeAyCXWwpoIe17L2kQ0")
                 .contentType("application/json").body(requestBody.toJSONString()).post(setViewUserHistoryByIDEndpoint());
     }
 
@@ -55,7 +55,7 @@ public class ViewUserHistoryByID {
     @Step("I send Get View User History By ID HTTP request3")
     public void sendGetViewUserHistoryByIDHttpRequest2() {
         SerenityRest.given()
-                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDEzMzk0ODMsImlkIjoiZGYwNmU5ZjctYzBmZS00MDcyLThjN2YtMTA1OGIxNDcxYzEyIiwicm9sZSI6IiJ9.tcxYCrZIiigNvYZlUuRyohvEIRyiiyWk-1BGgT5e7Uc")
+                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDEzODUyODksImlkIjoiZGYwNmU5ZjctYzBmZS00MDcyLThjN2YtMTA1OGIxNDcxYzEyIiwicm9sZSI6IiJ9.Ocs1g1vooXaQoScUzh538mAZVeAyCXWwpoIe17L2kQ0")
                 .when()
                 .get(setWrongViewUserHistoryByIDHTTP());
     }

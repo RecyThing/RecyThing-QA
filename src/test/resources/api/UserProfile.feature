@@ -34,3 +34,18 @@ Then I receive Get View User Profile valid HTTP response code 404
     When I send Patch Reset Password On Profile HTTP request3
     Then I receive Patch Reset Password On Profile valid HTTP response code 404
 
+  Scenario: Put - As User I Can Edit User Profile
+    Given I set Put Edit User Profile Endpoint With Correct Data
+    When I send Put Edit User Profile request
+    Then I receive Put Edit User Profile response code 200
+
+  Scenario: Post - As User I Can Edit User Endpoint with Wrong Request
+    Given I set POST Edit User Profile Endpoint with Wrong HTTP Request
+    When I send POST Edit User Profile HTTP request2
+    Then I receive POST Edit User Profile valid HTTP response code 405
+
+  Scenario: Put - As User I Can Edit User Profile Endpoint with Wrong URL
+    Given I set Put Edit User Profile Endpoint With Wrong URL
+    When I send Put Edit User Profile HTTP request3
+    Then I receive Put Edit User Profile valid HTTP response code 404
+
