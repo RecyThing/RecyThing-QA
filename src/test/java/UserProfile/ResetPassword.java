@@ -83,4 +83,5 @@ public class ResetPassword {
 
         restAssuredThat(response -> response.statusCode(400));
     }
+    
 }
