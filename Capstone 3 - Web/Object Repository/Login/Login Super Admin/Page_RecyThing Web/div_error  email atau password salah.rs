@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_error  email atau password salah</name>
+   <tag></tag>
+   <elementGuidId>95004240-2094-4424-9f81-f66541127d6e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.css-bmqpj6</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='chakra-toast-manager-top-right']/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>01f38b83-5d35-434f-bf0b-7f403745f231</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-bmqpj6</value>
+      <webElementGuid>b604f945-4d89-42d3-ae23-6a2126a1c1ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>error : email atau password salah</value>
+      <webElementGuid>2733523d-6495-4d85-80ff-199111cb3ae4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;chakra-toast-manager-top-right&quot;)/div[@class=&quot;chakra-toast&quot;]/div[@class=&quot;chakra-toast__inner css-dixmdy&quot;]/div[@class=&quot;css-bmqpj6&quot;]</value>
+      <webElementGuid>a164979e-0fd4-4eae-8685-4587709508a6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='chakra-toast-manager-top-right']/div/div/div</value>
+      <webElementGuid>b91c1cf8-ab40-4a7f-a6a4-c3513e6aaf19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/following::div[7]</value>
+      <webElementGuid>14e954c5-3070-44fc-8375-339c6aa4e288</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::div[7]</value>
+      <webElementGuid>ffaa1f3a-1136-4deb-9ec3-85dc3badef05</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div</value>
+      <webElementGuid>6f560456-0aef-4d50-a36c-fdfa186febef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'error : email atau password salah' or . = 'error : email atau password salah')]</value>
+      <webElementGuid>25555c51-5ff6-487f-aa0d-5ee933c54964</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -7,7 +7,7 @@ import org.json.simple.JSONObject;
 import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 
 public class UpdateReport {
-    protected String url = "https://api.recything.my.id/admins/manage/reports/TS-DA0CD46CB8104B2";
+    protected String url = "https://api.recything.my.id/admins/manage/reports/TS-1C598162B4DA4E3";
     protected String token = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDI3NTA5MjQsImlkIjoiMGM5N2UxN2UtZDFiZS00YjU0LWE0MGMtNzgwOThjNTcxNGFjIiwicm9sZSI6InN1cGVyX2FkbWluIn0.jjc2bB4caqblO9F-jOapftdgU7k3kKBYuvsY7xgPgcs";
     @Step("I set PATCH method to update Report By ID with valid request")
     public String setUpdateReport1(){

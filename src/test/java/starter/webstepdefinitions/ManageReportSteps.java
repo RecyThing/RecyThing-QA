@@ -7,7 +7,6 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import net.serenitybdd.rest.SerenityRest;
-import net.thucydides.core.annotations.Step;
 import net.thucydides.core.annotations.Steps;
 
 public class ManageReportSteps {

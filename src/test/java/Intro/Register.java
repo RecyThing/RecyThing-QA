@@ -16,7 +16,7 @@ public class Register {
     @Step("I send POST Register HTTP request")
     public void sendPostRegisterHttpRequest() {
         JSONObject requestBody = new JSONObject();
-        requestBody.put("fullname", "persondong");
+        requestBody.put("fullname", "Person Dong");
         requestBody.put("email", "someonesss@gmail.com");
         requestBody.put("password", "owaahjrgjhhhhh");
         requestBody.put("confirm_password", "owaahjrgjhhhhh");

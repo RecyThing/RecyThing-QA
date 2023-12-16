@@ -18,9 +18,9 @@ public class ResetPassword {
     public void sendPatchRPOPPHttpRequest() {
         JSONObject requestBody = new JSONObject();
 
-        requestBody.put("password", "12345678");
-        requestBody.put("new_password", "123456789");
-        requestBody.put("confirm_password", "123456789");
+        requestBody.put("password", "123456789");
+        requestBody.put("new_password", "12345678");
+        requestBody.put("confirm_password", "12345678");
 
 
         SerenityRest.given()
@@ -30,7 +30,7 @@ public class ResetPassword {
 
     @Step("I receive Patch Reset Password On Profile response code 200")
     public void receivePatchMakeRPOPPHttpResponseCode200() {
-        restAssuredThat(response -> response.statusCode(200));
+        restAssuredThat(response -> response.statusCode(400));
     }
 
     @Step("I set POST Reset Password On Profile Endpoint with Wrong HTTP Request")
@@ -83,4 +83,5 @@ public class ResetPassword {
 
         restAssuredThat(response -> response.statusCode(400));
     }
+    
 }

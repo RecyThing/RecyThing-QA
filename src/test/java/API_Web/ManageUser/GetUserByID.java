@@ -7,7 +7,7 @@ import org.json.simple.JSONObject;
 import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 
 public class GetUserByID {
-    protected String url = "https://api.recything.my.id/admins/manage/users/0c97e17e-d1be-4b54-a40c-78098c5714ac";
+    protected String url = "https://api.recything.my.id/admins/manage/users/332fcf30-69e4-4e79-9415-03dc3a4b8277";
     protected String token = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDI3NTA5MjQsImlkIjoiMGM5N2UxN2UtZDFiZS00YjU0LWE0MGMtNzgwOThjNTcxNGFjIiwicm9sZSI6InN1cGVyX2FkbWluIn0.jjc2bB4caqblO9F-jOapftdgU7k3kKBYuvsY7xgPgcs";
     @Step("I set GET method to view User By ID with valid request")
     public String setGetUser1(){
@@ -23,7 +23,7 @@ public class GetUserByID {
 
     @Step("I receive HTTP response code 200 for view User By ID")
     public void receiveUserResp1(){
-        restAssuredThat(response -> response.statusCode(500));
+        restAssuredThat(response -> response.statusCode(200));
     }
 
     @Step("I set POST method to view User By ID with invalid request method")
