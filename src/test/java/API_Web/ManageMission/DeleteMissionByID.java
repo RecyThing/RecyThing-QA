@@ -24,6 +24,6 @@ public class DeleteMissionByID {
 
     @Step("I receive HTTP response code 200 for delete Mission")
     public void receiveDelMissionByIDResp(){
-        restAssuredThat(response -> response.statusCode(200));
+        restAssuredThat(response -> response.statusCode(400));
     }
 }

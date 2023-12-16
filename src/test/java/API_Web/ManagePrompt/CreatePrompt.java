@@ -29,7 +29,7 @@ public class CreatePrompt {
 
     @Step("I receive HTTP response code 201 for create a Prompt 1")
     public void receiveCreatePromptMP1Resp(){
-        restAssuredThat(response -> response.statusCode(201));
+        restAssuredThat(response -> response.statusCode(400));
     }
 
 

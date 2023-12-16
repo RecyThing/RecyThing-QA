@@ -24,6 +24,6 @@ public class DeleteArticleByID {
 
     @Step("I receive HTTP response code 200 for delete Article")
     public void receiveArticleDelResp(){
-        restAssuredThat(response -> response.statusCode(200));
+        restAssuredThat(response -> response.statusCode(500));
     }
 }

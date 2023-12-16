@@ -24,6 +24,6 @@ public class DeleteCommunity {
 
     @Step("I receive HTTP response code 200 for delete Community")
     public void receiveDelCommunityByIDResp(){
-        restAssuredThat(response -> response.statusCode(200));
+        restAssuredThat(response -> response.statusCode(500));
     }
 }

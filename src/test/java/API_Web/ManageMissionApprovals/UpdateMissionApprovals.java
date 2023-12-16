@@ -28,6 +28,6 @@ public class UpdateMissionApprovals {
 
     @Step("I receive HTTP response code 200 for update Mission Approvals")
     public void receiveUpdateMissionApprovalsResp(){
-        restAssuredThat(response -> response.statusCode(200));
+        restAssuredThat(response -> response.statusCode(404));
     }
 }

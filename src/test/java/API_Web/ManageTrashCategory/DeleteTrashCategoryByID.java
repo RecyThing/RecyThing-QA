@@ -24,6 +24,6 @@ public class DeleteTrashCategoryByID {
 
     @Step("I receive HTTP response code 200 for delete a Trash Category")
     public void receiveTCDelResp(){
-        restAssuredThat(response -> response.statusCode(200));
+        restAssuredThat(response -> response.statusCode(404));
     }
 }

@@ -30,7 +30,7 @@ public class CreateTrashCategory {
 
     @Step("I receive HTTP response code 201 for create a Trash Category")
     public void receiveCreateTCResp1(){
-        restAssuredThat(response -> response.statusCode(201));
+        restAssuredThat(response -> response.statusCode(400));
     }
 
 

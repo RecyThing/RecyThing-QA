@@ -6,7 +6,7 @@ import net.thucydides.core.annotations.Step;
 import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 
 public class DeleteAdmin {
-    protected String url = "https://api.recything.my.id/admins/10a6d872-e1e1-4bf2-9d2c-d2e7a3e91f24";
+    protected String url = "https://api.recything.my.id/admins/a937ba69-9ba6-4843-91de-8aa66b55cf7d";
     protected String token = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDI3NTA5MjQsImlkIjoiMGM5N2UxN2UtZDFiZS00YjU0LWE0MGMtNzgwOThjNTcxNGFjIiwicm9sZSI6InN1cGVyX2FkbWluIn0.jjc2bB4caqblO9F-jOapftdgU7k3kKBYuvsY7xgPgcs";
 
     @Step("I set DEL method to delete All Admin with valid request")

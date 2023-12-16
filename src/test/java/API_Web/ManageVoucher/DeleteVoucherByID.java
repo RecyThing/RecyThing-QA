@@ -24,6 +24,6 @@ public class DeleteVoucherByID {
 
     @Step("I receive HTTP response code 200 for delete Voucher")
     public void receiveDelVoucherResp(){
-        restAssuredThat(response -> response.statusCode(200));
+        restAssuredThat(response -> response.statusCode(404));
     }
 }

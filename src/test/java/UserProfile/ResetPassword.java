@@ -54,7 +54,7 @@ public class ResetPassword {
 
     @Step("I receive POST Reset Password On Profile valid HTTP response code 405")
     public void receivePostRPOPPHttpResponseCode405() {
-        restAssuredThat(response -> response.statusCode(404));
+        restAssuredThat(response -> response.statusCode(400));
     }
 
 

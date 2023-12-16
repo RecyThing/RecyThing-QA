@@ -19,7 +19,7 @@ public class UpdatePointAchievement {
     public void sendPutToUpdatePointAchievement(){
         JSONObject requestBody = new JSONObject();
 
-        requestBody.put("target_point", 250000);
+        requestBody.put("target_point", 150000);
 
         SerenityRest.given()
                 .header("Authorization", "Bearer " + token)

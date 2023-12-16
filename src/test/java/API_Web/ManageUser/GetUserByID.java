@@ -23,7 +23,7 @@ public class GetUserByID {
 
     @Step("I receive HTTP response code 200 for view User By ID")
     public void receiveUserResp1(){
-        restAssuredThat(response -> response.statusCode(500));
+        restAssuredThat(response -> response.statusCode(200));
     }
 
     @Step("I set POST method to view User By ID with invalid request method")

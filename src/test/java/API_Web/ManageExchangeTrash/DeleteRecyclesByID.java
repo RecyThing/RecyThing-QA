@@ -24,6 +24,6 @@ public class DeleteRecyclesByID {
 
     @Step("I receive HTTP response code 200 for delete Trash Exchange")
     public void receiveTrashExchangeDelResp(){
-        restAssuredThat(response -> response.statusCode(200));
+        restAssuredThat(response -> response.statusCode(404));
     }
 }

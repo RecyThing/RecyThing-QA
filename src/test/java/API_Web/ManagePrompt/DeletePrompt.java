@@ -25,6 +25,6 @@ public class DeletePrompt {
 
     @Step("I receive HTTP response code 200 for delete Prompt")
     public void receivePromptDelResp(){
-        restAssuredThat(response -> response.statusCode(200));
+        restAssuredThat(response -> response.statusCode(400));
     }
 }

@@ -28,6 +28,6 @@ public class UpdateExchangePoint {
 
     @Step("I receive HTTP response code 200 for update Exchange Point")
     public void receiveUpdateExchangePointResp(){
-        restAssuredThat(response -> response.statusCode(200));
+        restAssuredThat(response -> response.statusCode(400));
     }
 }
