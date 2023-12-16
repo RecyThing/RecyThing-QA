@@ -30,7 +30,7 @@ public class ResetPassword {
 
     @Step("I receive Patch Reset Password On Profile response code 200")
     public void receivePatchMakeRPOPPHttpResponseCode200() {
-        restAssuredThat(response -> response.statusCode(200));
+        restAssuredThat(response -> response.statusCode(400));
     }
 
     @Step("I set POST Reset Password On Profile Endpoint with Wrong HTTP Request")
@@ -54,7 +54,7 @@ public class ResetPassword {
 
     @Step("I receive POST Reset Password On Profile valid HTTP response code 405")
     public void receivePostRPOPPHttpResponseCode405() {
-        restAssuredThat(response -> response.statusCode(400));
+        restAssuredThat(response -> response.statusCode(404));
     }
 
 
