@@ -15,7 +15,7 @@ public class FaqByID {
     @Step("I send Get FAQ with ID request")
     public void sendGetFAQWithID() {
         SerenityRest.given()
-                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDEzMzk0ODMsImlkIjoiZGYwNmU5ZjctYzBmZS00MDcyLThjN2YtMTA1OGIxNDcxYzEyIiwicm9sZSI6IiJ9.tcxYCrZIiigNvYZlUuRyohvEIRyiiyWk-1BGgT5e7Uc")
+                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDI3MzA5MTgsImlkIjoiZGYwNmU5ZjctYzBmZS00MDcyLThjN2YtMTA1OGIxNDcxYzEyIiwicm9sZSI6IiJ9.YAgiGnXX93q4IeZKonTbOlteQnM7Y0O8c4pJ_wPEZso")
                 .when()
                 .get(setGetFAQWithID());
     }
@@ -38,7 +38,7 @@ public class FaqByID {
 
 
         SerenityRest.given()
-                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDEzMzk0ODMsImlkIjoiZGYwNmU5ZjctYzBmZS00MDcyLThjN2YtMTA1OGIxNDcxYzEyIiwicm9sZSI6IiJ9.tcxYCrZIiigNvYZlUuRyohvEIRyiiyWk-1BGgT5e7Uc")
+                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDI3MzA5MTgsImlkIjoiZGYwNmU5ZjctYzBmZS00MDcyLThjN2YtMTA1OGIxNDcxYzEyIiwicm9sZSI6IiJ9.YAgiGnXX93q4IeZKonTbOlteQnM7Y0O8c4pJ_wPEZso")
                 .contentType("application/json").body(requestBody.toJSONString()).post(setFAQWithIDEndpoint());
     }
 
@@ -54,7 +54,7 @@ public class FaqByID {
     @Step("I send Get FAQ with ID HTTP request3")
     public void sendGetFAQWithIDHttpRequest2() {
         SerenityRest.given()
-                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDEzMzk0ODMsImlkIjoiZGYwNmU5ZjctYzBmZS00MDcyLThjN2YtMTA1OGIxNDcxYzEyIiwicm9sZSI6IiJ9.tcxYCrZIiigNvYZlUuRyohvEIRyiiyWk-1BGgT5e7Uc")
+                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDI3MzA5MTgsImlkIjoiZGYwNmU5ZjctYzBmZS00MDcyLThjN2YtMTA1OGIxNDcxYzEyIiwicm9sZSI6IiJ9.YAgiGnXX93q4IeZKonTbOlteQnM7Y0O8c4pJ_wPEZso")
                 .when()
                 .get(setWrongFAQWithIDURL());
     }

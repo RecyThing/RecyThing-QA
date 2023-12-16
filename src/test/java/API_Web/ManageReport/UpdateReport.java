@@ -7,7 +7,9 @@ import org.json.simple.JSONObject;
 import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 
 public class UpdateReport {
-    protected String url = "https://api.recything.my.id/admins/manage/reports/TS-4";
+    protected String url = "https://api.recything.my.id/admins/manage/reports/TS-0245B9B9B23F458";
+
+    String token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDI3Mjg2MjAsImlkIjoiMGM5N2UxN2UtZDFiZS00YjU0LWE0MGMtNzgwOThjNTcxNGFjIiwicm9sZSI6InN1cGVyX2FkbWluIn0.Y20Fgr2wbMcL2PbZNlk0B14WYSIxSDi8ULePxvMcnwY";
 
     @Step("I set PATCH method to update Report By ID with valid request")
     public String setUpdateReport1(){
@@ -21,7 +23,7 @@ public class UpdateReport {
         requestBody.put("status", "diterima");
 
         SerenityRest.given()
-                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDEzMzY3MjgsImlkIjoiMGM5N2UxN2UtZDFiZS00YjU0LWE0MGMtNzgwOThjNTcxNGFjIiwicm9sZSI6InN1cGVyX2FkbWluIn0.05Bh0vu27xqFiTup0omJQ8tZr8qUE20KgA9VJw2uAls")
+                .header("Authorization", "Bearer " + token)
                 .contentType("application/json").body(requestBody.toJSONString()).patch(setUpdateReport1());
     }
 
@@ -42,7 +44,7 @@ public class UpdateReport {
         requestBody.put("status", "ditolak");
 
         SerenityRest.given()
-                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDEzMzY3MjgsImlkIjoiMGM5N2UxN2UtZDFiZS00YjU0LWE0MGMtNzgwOThjNTcxNGFjIiwicm9sZSI6InN1cGVyX2FkbWluIn0.05Bh0vu27xqFiTup0omJQ8tZr8qUE20KgA9VJw2uAls")
+                .header("Authorization", "Bearer " + token)
                 .contentType("application/json").body(requestBody.toJSONString()).post(setUpdateReport2());
     }
 

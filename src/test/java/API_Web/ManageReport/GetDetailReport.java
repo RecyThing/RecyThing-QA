@@ -7,7 +7,9 @@ import org.json.simple.JSONObject;
 import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 
 public class GetDetailReport {
-    protected String url = "https://api.recything.my.id/admins/manage/reports/PS-B42177966894451";
+    protected String url = "https://api.recything.my.id/admins/manage/reports/PS-648BDB0077D2428";
+
+    String token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDI3Mjg2MjAsImlkIjoiMGM5N2UxN2UtZDFiZS00YjU0LWE0MGMtNzgwOThjNTcxNGFjIiwicm9sZSI6InN1cGVyX2FkbWluIn0.Y20Fgr2wbMcL2PbZNlk0B14WYSIxSDi8ULePxvMcnwY";
 
     @Step("I set GET method to view detail Report with valid request")
     public String setDetailReport1(){
@@ -17,7 +19,7 @@ public class GetDetailReport {
     @Step("I send GET for detail Report endpoint requests to connect to APIs MR2")
     public void sendDetailReport1(){
         SerenityRest.given()
-                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDEzMzY3MjgsImlkIjoiMGM5N2UxN2UtZDFiZS00YjU0LWE0MGMtNzgwOThjNTcxNGFjIiwicm9sZSI6InN1cGVyX2FkbWluIn0.05Bh0vu27xqFiTup0omJQ8tZr8qUE20KgA9VJw2uAls")
+                .header("Authorization", "Bearer " + token)
                 .when().get(setDetailReport1());
     }
 
@@ -38,7 +40,7 @@ public class GetDetailReport {
         requestBody.put("id", "TS-1");
 
         SerenityRest.given()
-                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDEzMzY3MjgsImlkIjoiMGM5N2UxN2UtZDFiZS00YjU0LWE0MGMtNzgwOThjNTcxNGFjIiwicm9sZSI6InN1cGVyX2FkbWluIn0.05Bh0vu27xqFiTup0omJQ8tZr8qUE20KgA9VJw2uAls")
+                .header("Authorization", "Bearer " + token)
                 .contentType("application/json").body(requestBody.toJSONString()).post(setDetailReport2());
     }
 
