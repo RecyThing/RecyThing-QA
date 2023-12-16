@@ -8,7 +8,7 @@ import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 
 public class GetAllAdmin {
     protected String url = "https://api.recything.my.id/admins";
-
+    protected String token = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDI3NTA5MjQsImlkIjoiMGM5N2UxN2UtZDFiZS00YjU0LWE0MGMtNzgwOThjNTcxNGFjIiwicm9sZSI6InN1cGVyX2FkbWluIn0.jjc2bB4caqblO9F-jOapftdgU7k3kKBYuvsY7xgPgcs";
     @Step("I set GET method to view All Admin with valid request")
     public String setGetAllAdmin1(){
         return url;
@@ -17,7 +17,7 @@ public class GetAllAdmin {
     @Step("I send GET for All Admin endpoint requests to connect to APIs MA1")
     public void sendGetAllAdmin1(){
         SerenityRest.given()
-                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDEzODU1MjUsImlkIjoiNGM2Y2QwNjAtMzc5Yi00OWNmLWI2MzctNTkwMmYxMTc3MzExIiwicm9sZSI6ImFkbWluIn0.Igp5kSMC_w2k8Tw6buCuzbwePcQaK0a3PFu7TGeFpU0")
+                .header("Authorization", token)
                 .when().get(setGetAllAdmin1());
     }
 
@@ -38,7 +38,7 @@ public class GetAllAdmin {
         requestBody.put("id", "");
 
         SerenityRest.given()
-                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDEzODU1MjUsImlkIjoiNGM2Y2QwNjAtMzc5Yi00OWNmLWI2MzctNTkwMmYxMTc3MzExIiwicm9sZSI6ImFkbWluIn0.Igp5kSMC_w2k8Tw6buCuzbwePcQaK0a3PFu7TGeFpU0")
+                .header("Authorization", token)
                 .contentType("application/json").body(requestBody.toJSONString()).post(setGetAllAdmin2());
     }
 

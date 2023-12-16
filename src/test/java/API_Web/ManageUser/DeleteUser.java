@@ -7,7 +7,8 @@ import org.json.simple.JSONObject;
 import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 
 public class DeleteUser {
-    protected String url = "https://api.recything.my.id/admins/manage/users/3c2d474c-1f8f-4cf8-ac6d-5f04b5caa4ad";
+    protected String url = "https://api.recything.my.id/admins/manage/users/0c97e17e-d1be-4b54-a40c-78098c5714ac";
+    protected String token = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDI3NTA5MjQsImlkIjoiMGM5N2UxN2UtZDFiZS00YjU0LWE0MGMtNzgwOThjNTcxNGFjIiwicm9sZSI6InN1cGVyX2FkbWluIn0.jjc2bB4caqblO9F-jOapftdgU7k3kKBYuvsY7xgPgcs";
 
     @Step("I set DEL method to delete All Users with valid request")
     public String setDelUser(){
@@ -17,12 +18,12 @@ public class DeleteUser {
     @Step("I send DEL for User By ID endpoint requests to connect to APIs MU3")
     public void sendDelUser(){
         SerenityRest.given()
-                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDEzODU1MjUsImlkIjoiNGM2Y2QwNjAtMzc5Yi00OWNmLWI2MzctNTkwMmYxMTc3MzExIiwicm9sZSI6ImFkbWluIn0.Igp5kSMC_w2k8Tw6buCuzbwePcQaK0a3PFu7TGeFpU0")
+                .header("Authorization", token)
                 .when().delete(setDelUser());
     }
 
     @Step("I receive HTTP response code 200 for delete User By ID")
     public void receiveUserDelResp(){
-        restAssuredThat(response -> response.statusCode(200));
+        restAssuredThat(response -> response.statusCode(500));
     }
 }

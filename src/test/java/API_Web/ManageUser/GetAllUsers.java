@@ -8,7 +8,7 @@ import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 
 public class GetAllUsers {
     protected String url = "https://api.recything.my.id/admins/manage/users";
-
+    protected String token = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDI3NTA5MjQsImlkIjoiMGM5N2UxN2UtZDFiZS00YjU0LWE0MGMtNzgwOThjNTcxNGFjIiwicm9sZSI6InN1cGVyX2FkbWluIn0.jjc2bB4caqblO9F-jOapftdgU7k3kKBYuvsY7xgPgcs";
     @Step("I set GET method to view All Users with valid request")
     public String setGetAllUsers1(){
         return url;
@@ -17,7 +17,7 @@ public class GetAllUsers {
     @Step("I send GET for All User endpoint requests to connect to APIs MU1")
     public void sendGetAllUsers1(){
         SerenityRest.given()
-                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDEzODU1MjUsImlkIjoiNGM2Y2QwNjAtMzc5Yi00OWNmLWI2MzctNTkwMmYxMTc3MzExIiwicm9sZSI6ImFkbWluIn0.Igp5kSMC_w2k8Tw6buCuzbwePcQaK0a3PFu7TGeFpU0")
+                .header("Authorization", token)
                 .when().get(setGetAllUsers1());
     }
 
@@ -38,7 +38,7 @@ public class GetAllUsers {
         requestBody.put("id", "4a8617e7-2653-4966-9f6f-6242d3085b9e");
 
         SerenityRest.given()
-                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDEzODU1MjUsImlkIjoiNGM2Y2QwNjAtMzc5Yi00OWNmLWI2MzctNTkwMmYxMTc3MzExIiwicm9sZSI6ImFkbWluIn0.Igp5kSMC_w2k8Tw6buCuzbwePcQaK0a3PFu7TGeFpU0")
+                .header("Authorization", token)
                 .contentType("application/json").body(requestBody.toJSONString()).post(setGetAllUsers2());
     }
 

@@ -2,7 +2,7 @@ name: API Automation JAVA + Maven
 
 on:
   push:
-    branches: [ JiddanBranch ]
+    branches: [ master ]
   pull_request:
     branches: [ master ]
 

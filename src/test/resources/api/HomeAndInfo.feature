@@ -47,3 +47,18 @@ Then I receive Get FAQ with ID valid HTTP response code 404
     Given I set Post RecyBot Endpoint With Wrong URL
     When I send Post RecyBot HTTP request3
     Then I receive Post RecyBot valid HTTP response code 400
+
+  Scenario: Get - As User I Can See Achievement
+    Given I set Get Achievement Endpoint With Correct Data
+    When I send Get Achievement request
+    Then I receive Get Achievement valid HTTP response code 200
+
+  Scenario: Post - As User I Can Achievement Endpoint with Wrong Request
+    Given I set POST Achievement Endpoint with Wrong HTTP Request
+    When I send POST Achievement HTTP request2
+    Then I receive POST Achievement valid HTTP response code 405
+
+  Scenario: Get - As User I Can Achievement Endpoint with Wrong URL
+    Given I set Get Achievement Endpoint With Wrong URL
+    When I send Get Achievement HTTP request3
+    Then I receive Get Achievement valid HTTP response code 404

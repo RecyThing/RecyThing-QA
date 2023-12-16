@@ -8,6 +8,7 @@ import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 
 public class ViewUserHistoryByID {
     protected String url = "https://api.recything.my.id/reports/history/TS-DA0CD46CB8104B2";
+    protected String token = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDI3NTAwNjMsImlkIjoiMDM2ODMwMTUtODE4Ny00MmM0LTkwMDItNGM4MzE1ZDk2ZmNjIiwicm9sZSI6IiJ9._ozULmZWA7TFtJWUsXDhamtww2p1BUxbngqy6n401dM";
     @Step("I set Get View User History By ID Endpoint With Correct Data")
     public String setGetViewUserHistoryByID(){
         return url;
@@ -16,7 +17,7 @@ public class ViewUserHistoryByID {
     public void sendGetViewUserHistoryByID() {
         SerenityRest.given()
                 .header("Authorization",
-                        "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDEzODUyODksImlkIjoiZGYwNmU5ZjctYzBmZS00MDcyLThjN2YtMTA1OGIxNDcxYzEyIiwicm9sZSI6IiJ9.Ocs1g1vooXaQoScUzh538mAZVeAyCXWwpoIe17L2kQ0")
+                        token)
                 .when()
                 .get(setGetViewUserHistoryByID());
     }
@@ -39,7 +40,7 @@ public class ViewUserHistoryByID {
 
 
         SerenityRest.given()
-                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDEzODUyODksImlkIjoiZGYwNmU5ZjctYzBmZS00MDcyLThjN2YtMTA1OGIxNDcxYzEyIiwicm9sZSI6IiJ9.Ocs1g1vooXaQoScUzh538mAZVeAyCXWwpoIe17L2kQ0")
+                .header("Authorization", token)
                 .contentType("application/json").body(requestBody.toJSONString()).post(setViewUserHistoryByIDEndpoint());
     }
 
@@ -55,7 +56,7 @@ public class ViewUserHistoryByID {
     @Step("I send Get View User History By ID HTTP request3")
     public void sendGetViewUserHistoryByIDHttpRequest2() {
         SerenityRest.given()
-                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDEzODUyODksImlkIjoiZGYwNmU5ZjctYzBmZS00MDcyLThjN2YtMTA1OGIxNDcxYzEyIiwicm9sZSI6IiJ9.Ocs1g1vooXaQoScUzh538mAZVeAyCXWwpoIe17L2kQ0")
+                .header("Authorization", token)
                 .when()
                 .get(setWrongViewUserHistoryByIDHTTP());
     }

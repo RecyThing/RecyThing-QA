@@ -1,5 +1,6 @@
 package starter;
 
+import HomeandInfo.Achievement;
 import HomeandInfo.Faq;
 import HomeandInfo.FaqByID;
 import HomeandInfo.RecyBot;
@@ -15,6 +16,8 @@ public class HomeAndInfoSteps {
     FaqByID fib;
     @Steps
     RecyBot rb;
+    @Steps
+    Achievement A;
 
     @Given("I set Get FAQ Endpoint With Correct Data")
     public void setGetFAQ() {
@@ -150,4 +153,53 @@ public class HomeAndInfoSteps {
     public void validateRecyBotHttpResponseCode400(){
         rb.validateRecyBotHttpResponseCode400();
     }
+
+    @Given("I set Get Achievement Endpoint With Correct Data")
+    public void setGetAchievements() {
+        A.setGetAchievements();
+    }
+
+    @When("I send Get Achievement request")
+    public void sendGetAchievements() {
+        A.sendGetAchievements();
+    }
+
+    @Then("I receive Get Achievement valid HTTP response code 200")
+    public void receiveGETAchievementsResponseCode200(){
+        A.receiveGETAchievementsResponseCode200();
+    }
+
+    @Given("I set POST Achievement Endpoint with Wrong HTTP Request")
+    public void setAchievementsEndpoint() {
+        A.setGetAchievements();
+    }
+
+    @When("I send POST Achievement HTTP request2")
+    public void sendPostAchievementsHttpRequest() {
+        A.sendPostAchievementsHttpRequest();
+    }
+
+    @Then("I receive POST Achievement valid HTTP response code 405")
+    public void receivePostAchievementsHttpResponseCode405(){
+        A.receivePostAchievementsHttpResponseCode405();
+    }
+
+
+    @Given("I set Get Achievement Endpoint With Wrong URL")
+    public void setWrongAchievementsURL() {
+        A.setWrongAchievementsURL();
+    }
+
+    @When("I send Get Achievement HTTP request3")
+    public void sendGetAchievementsHttpRequest2() {
+        A.sendGetAchievementsHttpRequest2();
+    }
+
+    @Then("I receive Get Achievement valid HTTP response code 404")
+    public void receiveWrongGetAchievementsResponseCode404(){
+        A.receiveWrongGetAchievementsResponseCode404();
+    }
+
+
+
 }
