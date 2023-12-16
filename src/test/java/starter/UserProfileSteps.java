@@ -1,5 +1,6 @@
 package starter;
 
+import UserProfile.EditUserProfile;
 import UserProfile.ResetPassword;
 import UserProfile.ViewUserProfile;
 import io.cucumber.java.en.Given;
@@ -12,6 +13,8 @@ public class UserProfileSteps {
     ViewUserProfile vup;
     @Steps
     ResetPassword rp;
+    @Steps
+    EditUserProfile eup;
     @Given("I set Get View User Profile Endpoint With Correct Data")
     public void setGetViewUserProfile() {
         vup.setGetViewUserProfile();
@@ -101,6 +104,51 @@ public class UserProfileSteps {
     @Then("I receive Patch Reset Password On Profile valid HTTP response code 404")
     public void validateRPOPHttpResponseCode400() {
         rp.validateRPOPHttpResponseCode400();
+    }
+
+    @Given("I set Put Edit User Profile Endpoint With Correct Data")
+    public void setEditUserProfileEndpoint1() {
+        eup.setEditUserProfileEndpoint1();
+    }
+
+    @When("I send Put Edit User Profile request")
+    public void sendPutEditUserProfileHttpRequest() {
+        eup.sendPutEditUserProfileHttpRequest();
+    }
+
+    @Then("I receive Put Edit User Profile response code 200")
+    public void receivePutEditUserProfileHttpResponseCode200() {
+        eup.receivePutEditUserProfileHttpResponseCode200();
+    }
+
+    @Given("I set POST Edit User Profile Endpoint with Wrong HTTP Request")
+    public void setEditUserProfileEndpoint() {
+        eup.setEditUserProfileEndpoint();
+    }
+
+    @When("I send POST Edit User Profile HTTP request2")
+    public void sendPostEditUserProfileHttpRequest2() {
+        eup.sendPostEditUserProfileHttpRequest2();
+    }
+
+    @Then("I receive POST Edit User Profile valid HTTP response code 405")
+    public void receivePostEditUserProfileHttpResponseCode405() {
+        eup.receivePostEditUserProfileHttpResponseCode405();
+    }
+
+    @Given("I set Put Edit User Profile Endpoint With Wrong URL")
+    public void setEditUserProfileApiEndpoint3() {
+        eup.setEditUserProfileApiEndpoint3();
+    }
+
+    @When("I send Put Edit User Profile HTTP request3")
+    public void sendEditUserProfileHttpRequest3() {
+        eup.sendEditUserProfileHttpRequest3();
+    }
+
+    @Then("I receive Put Edit User Profile valid HTTP response code 404")
+    public void validateEditUserProfileHttpResponseCode400() {
+        eup.validateEditUserProfileHttpResponseCode400();
     }
 
 
