@@ -8,6 +8,7 @@ import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 
 public class RecyBot {
     protected String url = "https://recybot---recything-api-niyyqhuhua-uc.a.run.app/recybot";
+    protected String token = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDI3NTAwNjMsImlkIjoiMDM2ODMwMTUtODE4Ny00MmM0LTkwMDItNGM4MzE1ZDk2ZmNjIiwicm9sZSI6IiJ9._ozULmZWA7TFtJWUsXDhamtww2p1BUxbngqy6n401dM";
     @Step("I set Post RecyBot Endpoint With Correct Data")
     public String setRecyBotEndpoint() {
         return url;
@@ -17,11 +18,11 @@ public class RecyBot {
     public void sendPostRecyBotHttpRequest() {
         JSONObject requestBody = new JSONObject();
 
-        requestBody.put("question", "berikan 3 contoh sampah anorganik ya");
+        requestBody.put("question", "berikan 3 contoh sampah organik");
 
         SerenityRest.given()
                 .header("Authorization",
-                        "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDI3MzA5MTgsImlkIjoiZGYwNmU5ZjctYzBmZS00MDcyLThjN2YtMTA1OGIxNDcxYzEyIiwicm9sZSI6IiJ9.YAgiGnXX93q4IeZKonTbOlteQnM7Y0O8c4pJ_wPEZso")
+                        token)
                 .contentType("application/json").body(requestBody.toJSONString()).post(setRecyBotEndpoint());
     }
 
@@ -40,7 +41,7 @@ public class RecyBot {
     public void sendGetLoginHttpRequest2() {
         SerenityRest.given()
                 .header("Authorization",
-                        "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDI3MzA5MTgsImlkIjoiZGYwNmU5ZjctYzBmZS00MDcyLThjN2YtMTA1OGIxNDcxYzEyIiwicm9sZSI6IiJ9.YAgiGnXX93q4IeZKonTbOlteQnM7Y0O8c4pJ_wPEZso")
+                        token)
                 .when()
                 .get(setWrongRecyBotEndpoint());
     }
@@ -63,7 +64,7 @@ public class RecyBot {
 
         SerenityRest.given()
                 .header("Authorization",
-                        "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDI3MzA5MTgsImlkIjoiZGYwNmU5ZjctYzBmZS00MDcyLThjN2YtMTA1OGIxNDcxYzEyIiwicm9sZSI6IiJ9.YAgiGnXX93q4IeZKonTbOlteQnM7Y0O8c4pJ_wPEZso")
+                        token)
                 .when()
                 .post(setRecyBotApiEndpoint());
 

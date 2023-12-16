@@ -8,7 +8,7 @@ import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 
 public class UpdatePointAchievement {
     protected String url = "https://api.recything.my.id/admins/manage/achievements/1";
-    String token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDI3Mjg2MjAsImlkIjoiMGM5N2UxN2UtZDFiZS00YjU0LWE0MGMtNzgwOThjNTcxNGFjIiwicm9sZSI6InN1cGVyX2FkbWluIn0.Y20Fgr2wbMcL2PbZNlk0B14WYSIxSDi8ULePxvMcnwY";
+    String token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDI3NTA5MjQsImlkIjoiMGM5N2UxN2UtZDFiZS00YjU0LWE0MGMtNzgwOThjNTcxNGFjIiwicm9sZSI6InN1cGVyX2FkbWluIn0.jjc2bB4caqblO9F-jOapftdgU7k3kKBYuvsY7xgPgcs";
 
     @Step("I set GET method to update Point Achievement with valid request")
     public String setUpdatePointAchievement(){
@@ -19,7 +19,7 @@ public class UpdatePointAchievement {
     public void sendPutToUpdatePointAchievement(){
         JSONObject requestBody = new JSONObject();
 
-        requestBody.put("target_point", 150000);
+        requestBody.put("target_point", 250000);
 
         SerenityRest.given()
                 .header("Authorization", "Bearer " + token)

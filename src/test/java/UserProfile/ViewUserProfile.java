@@ -8,6 +8,7 @@ import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 
 public class ViewUserProfile {
     protected String url = "https://api.recything.my.id/users/profile";
+    protected String token = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDI3NTAwNjMsImlkIjoiMDM2ODMwMTUtODE4Ny00MmM0LTkwMDItNGM4MzE1ZDk2ZmNjIiwicm9sZSI6IiJ9._ozULmZWA7TFtJWUsXDhamtww2p1BUxbngqy6n401dM";
     @Step("I set Get View User Profile Endpoint With Correct Data")
     public String setGetViewUserProfile(){
         return url;
@@ -15,7 +16,7 @@ public class ViewUserProfile {
     @Step("I send Get View User Profile request")
     public void sendGetViewUserProfile() {
         SerenityRest.given()
-                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDI3MzA5MTgsImlkIjoiZGYwNmU5ZjctYzBmZS00MDcyLThjN2YtMTA1OGIxNDcxYzEyIiwicm9sZSI6IiJ9.YAgiGnXX93q4IeZKonTbOlteQnM7Y0O8c4pJ_wPEZso")
+                .header("Authorization", token)
                 .when()
                 .get(setGetViewUserProfile());
     }
@@ -38,7 +39,7 @@ public class ViewUserProfile {
 
 
         SerenityRest.given()
-                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDI3MzA5MTgsImlkIjoiZGYwNmU5ZjctYzBmZS00MDcyLThjN2YtMTA1OGIxNDcxYzEyIiwicm9sZSI6IiJ9.YAgiGnXX93q4IeZKonTbOlteQnM7Y0O8c4pJ_wPEZso")
+                .header("Authorization", token)
                 .contentType("application/json").body(requestBody.toJSONString()).post(setViewUserProfileEndpoint());
     }
 
@@ -54,7 +55,7 @@ public class ViewUserProfile {
     @Step("I send Get View User Profile HTTP request3")
     public void sendGetViewUserProfileHttpRequest2() {
         SerenityRest.given()
-                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDI3MzA5MTgsImlkIjoiZGYwNmU5ZjctYzBmZS00MDcyLThjN2YtMTA1OGIxNDcxYzEyIiwicm9sZSI6IiJ9.YAgiGnXX93q4IeZKonTbOlteQnM7Y0O8c4pJ_wPEZso")
+                .header("Authorization", token)
                 .when()
                 .get(setWrongViewUserProfileHTTP());
     }

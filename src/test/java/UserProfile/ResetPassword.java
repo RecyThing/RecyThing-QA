@@ -8,6 +8,7 @@ import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 
 public class ResetPassword {
     protected String url = "https://api.recything.my.id/users/profile/reset-password";
+    protected String token = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDI3NTAwNjMsImlkIjoiMDM2ODMwMTUtODE4Ny00MmM0LTkwMDItNGM4MzE1ZDk2ZmNjIiwicm9sZSI6IiJ9._ozULmZWA7TFtJWUsXDhamtww2p1BUxbngqy6n401dM";
     @Step("I set Patch Reset Password On Profile Endpoint With Correct Data")
     public String setRPOPPEndpoint1() {
         return url;
@@ -17,13 +18,13 @@ public class ResetPassword {
     public void sendPatchRPOPPHttpRequest() {
         JSONObject requestBody = new JSONObject();
 
-        requestBody.put("password", "12345678");
-        requestBody.put("new_password", "123456789");
-        requestBody.put("confirm_password", "123456789");
+        requestBody.put("password", "123456789");
+        requestBody.put("new_password", "12345678");
+        requestBody.put("confirm_password", "12345678");
 
 
         SerenityRest.given()
-                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDI3MzA5MTgsImlkIjoiZGYwNmU5ZjctYzBmZS00MDcyLThjN2YtMTA1OGIxNDcxYzEyIiwicm9sZSI6IiJ9.YAgiGnXX93q4IeZKonTbOlteQnM7Y0O8c4pJ_wPEZso")
+                .header("Authorization", token)
                 .contentType("application/json").body(requestBody.toJSONString()).patch(setRPOPPEndpoint1());
     }
 
@@ -47,7 +48,7 @@ public class ResetPassword {
 
 
         SerenityRest.given()
-                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDI3MzA5MTgsImlkIjoiZGYwNmU5ZjctYzBmZS00MDcyLThjN2YtMTA1OGIxNDcxYzEyIiwicm9sZSI6IiJ9.YAgiGnXX93q4IeZKonTbOlteQnM7Y0O8c4pJ_wPEZso")
+                .header("Authorization", token)
                 .contentType("application/json").body(requestBody.toJSONString()).post(setRPOPPEndpoint());
     }
 
@@ -71,7 +72,7 @@ public class ResetPassword {
 
 
         SerenityRest.given()
-                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDI3MzA5MTgsImlkIjoiZGYwNmU5ZjctYzBmZS00MDcyLThjN2YtMTA1OGIxNDcxYzEyIiwicm9sZSI6IiJ9.YAgiGnXX93q4IeZKonTbOlteQnM7Y0O8c4pJ_wPEZso")
+                .header("Authorization", token)
                 .when()
                 .patch(setRPOPPasswordApiEndpoint3());
 

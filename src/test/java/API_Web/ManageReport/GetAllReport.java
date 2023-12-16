@@ -8,8 +8,7 @@ import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 
 public class GetAllReport {
     protected String url = "https://api.recything.my.id/admins/manage/reports";
-
-    String token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDI3Mjg2MjAsImlkIjoiMGM5N2UxN2UtZDFiZS00YjU0LWE0MGMtNzgwOThjNTcxNGFjIiwicm9sZSI6InN1cGVyX2FkbWluIn0.Y20Fgr2wbMcL2PbZNlk0B14WYSIxSDi8ULePxvMcnwY";
+    protected String token = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDI3NTA5MjQsImlkIjoiMGM5N2UxN2UtZDFiZS00YjU0LWE0MGMtNzgwOThjNTcxNGFjIiwicm9sZSI6InN1cGVyX2FkbWluIn0.jjc2bB4caqblO9F-jOapftdgU7k3kKBYuvsY7xgPgcs";
 
     @Step("I set GET method to view All Report with valid request")
     public String setGetAllReport1(){
@@ -19,7 +18,7 @@ public class GetAllReport {
     @Step("I send GET for All Report endpoint requests to connect to APIs MR1")
     public void sendGetAllReport1(){
         SerenityRest.given()
-                .header("Authorization", "Bearer " + token)
+                .header("Authorization", token)
                 .when().get(setGetAllReport1());
     }
 
@@ -40,7 +39,7 @@ public class GetAllReport {
         requestBody.put("id", "");
 
         SerenityRest.given()
-                .header("Authorization", "Bearer " + token)
+                .header("Authorization", token)
                 .contentType("application/json").body(requestBody.toJSONString()).post(setGetAllReport2());
     }
 
