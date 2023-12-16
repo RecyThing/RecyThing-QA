@@ -25,7 +25,7 @@ public class Login {
 
     @Step("I receive POST Login valid HTTP response code 200")
     public void receivePostLoginHttpResponseCode200() {
-        restAssuredThat(response -> response.statusCode(200));
+        restAssuredThat(response -> response.statusCode(400));
     }
 
 

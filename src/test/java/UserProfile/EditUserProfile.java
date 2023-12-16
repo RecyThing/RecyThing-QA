@@ -8,6 +8,7 @@ import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 
 public class EditUserProfile {
     protected String url = "https://api.recything.my.id/users/profile";
+    protected String token = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDI3NTAwNjMsImlkIjoiMDM2ODMwMTUtODE4Ny00MmM0LTkwMDItNGM4MzE1ZDk2ZmNjIiwicm9sZSI6IiJ9._ozULmZWA7TFtJWUsXDhamtww2p1BUxbngqy6n401dM";
     @Step("I set Put Edit User Profile Endpoint With Correct Data")
     public String setEditUserProfileEndpoint1() {
         return url;
@@ -25,7 +26,7 @@ public class EditUserProfile {
 
 
         SerenityRest.given()
-                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDEzODUyODksImlkIjoiZGYwNmU5ZjctYzBmZS00MDcyLThjN2YtMTA1OGIxNDcxYzEyIiwicm9sZSI6IiJ9.Ocs1g1vooXaQoScUzh538mAZVeAyCXWwpoIe17L2kQ0")
+                .header("Authorization", token)
                 .contentType("application/json").body(requestBody.toJSONString()).put(setEditUserProfileEndpoint1());
     }
 
@@ -51,7 +52,7 @@ public class EditUserProfile {
 
 
         SerenityRest.given()
-                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDEzODUyODksImlkIjoiZGYwNmU5ZjctYzBmZS00MDcyLThjN2YtMTA1OGIxNDcxYzEyIiwicm9sZSI6IiJ9.Ocs1g1vooXaQoScUzh538mAZVeAyCXWwpoIe17L2kQ0")
+                .header("Authorization", token)
                 .contentType("application/json").body(requestBody.toJSONString()).post(setEditUserProfileEndpoint());
     }
 
@@ -78,7 +79,7 @@ public class EditUserProfile {
 
 
         SerenityRest.given()
-                .header("Authorization", "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDEzODUyODksImlkIjoiZGYwNmU5ZjctYzBmZS00MDcyLThjN2YtMTA1OGIxNDcxYzEyIiwicm9sZSI6IiJ9.Ocs1g1vooXaQoScUzh538mAZVeAyCXWwpoIe17L2kQ0")
+                .header("Authorization", token)
                 .when()
                 .put(setEditUserProfileApiEndpoint3());
 

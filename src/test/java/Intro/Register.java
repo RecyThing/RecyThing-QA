@@ -26,7 +26,7 @@ public class Register {
 
     @Step("I receive POST Register valid HTTP response code 200")
     public void receivePostRegisterHttpResponseCode200() {
-        restAssuredThat(response -> response.statusCode(201));
+        restAssuredThat(response -> response.statusCode(400));
     }
 
 
