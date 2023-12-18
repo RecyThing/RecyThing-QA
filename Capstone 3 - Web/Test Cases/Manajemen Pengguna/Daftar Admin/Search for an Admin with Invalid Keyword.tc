@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search for an Admin with Invalid Keyword</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c6159a52-8e12-49c3-b059-47a8ac61281d</testCaseGuid>
+</TestCaseEntity>

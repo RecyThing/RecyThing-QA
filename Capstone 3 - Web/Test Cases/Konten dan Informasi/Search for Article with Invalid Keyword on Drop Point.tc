@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search for Article with Invalid Keyword on Drop Point</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a7df7344-abfc-4592-ad7d-ef076cc0e17b</testCaseGuid>
+</TestCaseEntity>

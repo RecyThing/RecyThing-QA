@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search for a User with Invalid Keyword</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d2036c6b-6c01-4d3c-b48b-a5328ef9a6bc</testCaseGuid>
+</TestCaseEntity>

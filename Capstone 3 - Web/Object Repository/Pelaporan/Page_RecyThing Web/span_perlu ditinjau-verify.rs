@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_perlu ditinjau-verify</name>
+   <tag></tag>
+   <elementGuidId>56dbd258-363a-4486-a278-d5048c0487ab</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.chakra-badge.css-slw3t9</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='chakra-modal--body-:r6a:']/div/div[3]/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>4781642e-0a1f-4915-95a8-7b2da261075a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>chakra-badge css-slw3t9</value>
+      <webElementGuid>9c614962-bc67-4ff6-b970-e4dea3d96fe9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>perlu ditinjau</value>
+      <webElementGuid>6a926acd-b7cc-4de3-96a4-8e12e6df94a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;chakra-modal--body-:r6a:&quot;)/div[@class=&quot;css-1gbo05p&quot;]/div[@class=&quot;css-1lawy5a&quot;]/span[@class=&quot;chakra-badge css-slw3t9&quot;]</value>
+      <webElementGuid>5c4b938d-0bbb-469f-b90c-7f6a2c6a9876</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='chakra-modal--body-:r6a:']/div/div[3]/span</value>
+      <webElementGuid>73affa21-8528-4391-a779-66b2458a6c8d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PS-B68A04BB31BB447'])[2]/following::span[3]</value>
+      <webElementGuid>9e64c167-be39-49b6-aabc-e61b04691745</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kembali'])[1]/preceding::span[1]</value>
+      <webElementGuid>b88df1af-cffd-429e-bd49-c13e612cd178</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/span</value>
+      <webElementGuid>36646863-35d4-4aa9-864c-848e8916d675</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'perlu ditinjau' or . = 'perlu ditinjau')]</value>
+      <webElementGuid>c8b253e3-4ace-4507-a4a3-749f62c46a7e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

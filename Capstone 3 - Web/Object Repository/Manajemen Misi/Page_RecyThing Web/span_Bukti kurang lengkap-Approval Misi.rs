@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Bukti kurang lengkap-Approval Misi</name>
+   <tag></tag>
+   <elementGuidId>953f5f2c-c76a-44a0-9c57-74f59d3c19d1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='menu-list-:rac:-menuitem-:rae:']/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>63bb34a7-2944-4580-9901-970d82f09887</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Bukti kurang lengkap</value>
+      <webElementGuid>a3e01487-011f-4bc5-a28f-a3bb7c07a1f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;menu-list-:rac:-menuitem-:rae:&quot;)/span[2]</value>
+      <webElementGuid>d2d49832-2510-4cd6-a416-d772fb436173</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='menu-list-:rac:-menuitem-:rae:']/span[2]</value>
+      <webElementGuid>e77f4911-8e2d-4572-97d7-9a7234cdf68b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bukti tidak jelas'])[2]/following::span[2]</value>
+      <webElementGuid>641ab56f-39a3-41cf-a1e7-b4e638a6e1bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tolak'])[2]/following::span[5]</value>
+      <webElementGuid>e64a8ff1-0232-4f42-a731-035fc16dbf2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tidak ada detail kejadian'])[2]/preceding::span[2]</value>
+      <webElementGuid>5c344285-f454-4e46-ac62-b1f3c868acf3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='MIS-284A2C16315148E'])[1]/preceding::span[3]</value>
+      <webElementGuid>b9dbbc3b-ba66-4a17-95e6-0cdfb83c0be6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[2]/td[7]/div/div/div/div/button[2]/span[2]</value>
+      <webElementGuid>02fd1b47-d97e-4a82-8cbb-75661194866b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Bukti kurang lengkap' or . = 'Bukti kurang lengkap')]</value>
+      <webElementGuid>e3b69159-e6f4-4843-a648-929b60d62c54</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

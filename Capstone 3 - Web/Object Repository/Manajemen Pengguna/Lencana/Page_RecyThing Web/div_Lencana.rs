@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Lencana</name>
+   <tag></tag>
+   <elementGuidId>be7a838b-4b97-46f9-b96d-33ade56e1394</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/div[2]/div[2]/div[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>cbd7f1e1-3bda-4f50-b5cc-4f34caaee935</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pl-12 flex gap-4 py-2 rounded-lg 
+          hover:bg-slate-100</value>
+      <webElementGuid>75b725bb-e327-43a4-b68f-4caf1096ef07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Lencana</value>
+      <webElementGuid>eb328685-079a-4089-8b2a-648102ea043f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex&quot;]/div[@class=&quot;fixed px-6 pt-8 pb-6 hide-scrollbar transition-all overflow-scroll w-[312px] min-w-[312px]
+	bg-white z-10 min-h-screen max-h-screen border-r border-[#C7C9D9]&quot;]/div[@class=&quot;flex flex-col gap-4&quot;]/div[@class=&quot;cursor-pointer min-w-[263px]&quot;]/div[@class=&quot;overflow-hidden transition-all duration-[350ms] mt-2 h-[120px]&quot;]/div[@class=&quot;pl-12 flex gap-4 py-2 rounded-lg 
+          hover:bg-slate-100&quot;]</value>
+      <webElementGuid>6b6f3f3f-0008-437a-a08f-8fcc2120f3fd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div[2]/div[2]/div[3]</value>
+      <webElementGuid>a56600a7-7071-42fe-8038-5f13c85b57f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::div[79]</value>
+      <webElementGuid>04cec2aa-2ba8-4ef8-926f-91d4d7fd62ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama Lengkap'])[1]/preceding::div[79]</value>
+      <webElementGuid>97116e07-f1db-40af-8a7d-e9e31e94398e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div[3]</value>
+      <webElementGuid>c7556f60-69b0-4157-8edb-b99da75a0c11</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Lencana' or . = 'Lencana')]</value>
+      <webElementGuid>34a52412-f6bf-4d85-9bfc-da6d2aea1c63</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Tipe Laporan-verify-all</name>
+   <tag></tag>
+   <elementGuidId>6808ab42-2c99-4de6-847d-1336d582ed35</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.chakra-text.css-jhi84y</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='chakra-modal--body-:r5u:']/div/div/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>e41d56f4-00d6-4f45-8fe1-8fd77568e65d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>chakra-text css-jhi84y</value>
+      <webElementGuid>7df3cec1-0a0c-4cce-939d-c5f5e8f480e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tipe Laporan</value>
+      <webElementGuid>1b9d9e04-d5c2-4f58-96dc-6ccc8e7fc7d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;chakra-modal--body-:r5u:&quot;)/div[@class=&quot;css-1gbo05p&quot;]/div[@class=&quot;css-1lawy5a&quot;]/p[@class=&quot;chakra-text css-jhi84y&quot;]</value>
+      <webElementGuid>3b7bc449-2ebd-40fe-87e4-05155f5926f3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='chakra-modal--body-:r5u:']/div/div/p</value>
+      <webElementGuid>69c0a3a8-060d-4fcc-af9f-3a5219bd3284</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PS-32B43572BBC14AE'])[2]/following::p[1]</value>
+      <webElementGuid>9d30958c-72bb-492d-996c-6ccaf5e6887e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kembali'])[1]/preceding::p[17]</value>
+      <webElementGuid>2f419533-4f67-4b5a-b7c3-6fc98002e043</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/section/div/div/div/p</value>
+      <webElementGuid>6fa613d3-06cd-45df-a52e-4c8230275c48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Tipe Laporan' or . = 'Tipe Laporan')]</value>
+      <webElementGuid>ce21df33-6af4-4fd0-8743-2175144d14ba</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
