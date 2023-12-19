@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Disable Tukar Point when Point Less Than Term</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>623e8841-6e23-40f8-8e74-1197a3b97928</testCaseGuid>
+</TestCaseEntity>
