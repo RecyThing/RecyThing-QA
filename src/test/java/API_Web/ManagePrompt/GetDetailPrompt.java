@@ -9,7 +9,7 @@ import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 public class GetDetailPrompt {
     protected String url = "https://api.recything.my.id/admins/manage/prompts/be4ea6ad-2d9c-4e2e-82ad-bd3fdaae158e";
 
-    String token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDI3NTA5MjQsImlkIjoiMGM5N2UxN2UtZDFiZS00YjU0LWE0MGMtNzgwOThjNTcxNGFjIiwicm9sZSI6InN1cGVyX2FkbWluIn0.jjc2bB4caqblO9F-jOapftdgU7k3kKBYuvsY7xgPgcs";
+    String token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDMwMjU3OTYsImlkIjoiMGM5N2UxN2UtZDFiZS00YjU0LWE0MGMtNzgwOThjNTcxNGFjIiwicm9sZSI6InN1cGVyX2FkbWluIn0.Te2WTF9iniKdPzUYC6iCbGN0FPi7sNwshcascO_Qs2o";
 
     @Step("I set GET method to view detail Prompt with valid request")
     public String setGetPrompt1(){

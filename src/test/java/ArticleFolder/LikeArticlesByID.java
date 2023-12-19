@@ -8,7 +8,7 @@ import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 
 public class LikeArticlesByID {
     protected String url = "https://api.recything.my.id/articles/like/1d1a353d-342e-4932-8a9a-aca4c68aa714";
-    protected String token = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDI3NTAwNjMsImlkIjoiMDM2ODMwMTUtODE4Ny00MmM0LTkwMDItNGM4MzE1ZDk2ZmNjIiwicm9sZSI6IiJ9._ozULmZWA7TFtJWUsXDhamtww2p1BUxbngqy6n401dM";
+    protected String token = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDMwMTI5MTksImlkIjoiMDM2ODMwMTUtODE4Ny00MmM0LTkwMDItNGM4MzE1ZDk2ZmNjIiwicm9sZSI6IiJ9.y_9b3osd5IkNPDlYca2yX3fvDpXqTRI3CFAnsnNjSWQ";
     @Step("I set  Like Article Endpoint With Correct Data")
     public String setLikeAnArticleEndpoint() {
         return url;

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>eye-icon-selesai</name>
+   <tag></tag>
+   <elementGuidId>e243bd07-14b5-49c7-9efe-ce600165830a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.chakra-button.css-11amxnw</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[6]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>a413bdec-bb3b-4e58-a437-a8b88b1f7005</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>cd5b0d59-6cd1-4f86-90aa-c22c0cbc8d86</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>chakra-button css-11amxnw</value>
+      <webElementGuid>36fdabb5-cf72-418f-87d0-b9106744667d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex&quot;]/div[@class=&quot;w-full ml-[312px]&quot;]/div[@class=&quot;mt-12 border&quot;]/section[@class=&quot;chakra-container css-1wv7j7a&quot;]/div[@class=&quot;css-11wsct4&quot;]/div[@class=&quot;chakra-table__container css-zipzvv&quot;]/table[@class=&quot;chakra-table css-5605sr&quot;]/tbody[@class=&quot;css-0&quot;]/tr[@class=&quot;css-o2eiba&quot;]/td[@class=&quot;css-wxrlk7&quot;]/div[@class=&quot;css-gmuwbf&quot;]/button[@class=&quot;chakra-button css-11amxnw&quot;]</value>
+      <webElementGuid>9c67bf19-6dda-4823-93f1-a1aada935416</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[6]</value>
+      <webElementGuid>affeddf9-cce0-4f8a-8029-abff636cae53</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[2]/section/div/div[2]/table/tbody/tr/td[7]/div/button</value>
+      <webElementGuid>3294e02d-2582-4fe9-91cb-efbc729a79aa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Berhasil'])[1]/following::button[1]</value>
+      <webElementGuid>9dc4650c-3ce0-45ac-b258-67d5a36fcacf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aksi'])[1]/following::button[1]</value>
+      <webElementGuid>f94b1ea8-9491-4264-a553-805fccf11803</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Berhasil'])[2]/preceding::button[1]</value>
+      <webElementGuid>0dc8b343-1d76-4089-be5d-a52f0d22eca5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Berhasil'])[3]/preceding::button[2]</value>
+      <webElementGuid>867ca9f4-4f1d-48fb-a90a-3cb7a0c168a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[7]/div/button</value>
+      <webElementGuid>6945e063-6907-4f62-89f4-f460d814dd05</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button']</value>
+      <webElementGuid>b5b4c25c-77cb-45a2-9cbd-6f194585eb2e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

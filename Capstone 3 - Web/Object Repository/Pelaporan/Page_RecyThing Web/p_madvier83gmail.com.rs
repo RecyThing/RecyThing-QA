@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_madvier83gmail.com</name>
+   <tag></tag>
+   <elementGuidId>02213133-86b1-4c92-b48b-4272bf0681a1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div[2]/section/div/div[2]/table/tbody/tr/td[3]/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>bc9a5b59-0865-405a-9085-d8d71ca0068c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>chakra-text css-mahiel</value>
+      <webElementGuid>984a89b3-34e9-4237-9b41-a680b4b760c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>madvier83@gmail.com</value>
+      <webElementGuid>15e51b9e-ee1a-41c7-b77f-72898ee895fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex&quot;]/div[@class=&quot;w-full ml-[96px]&quot;]/div[@class=&quot;mt-12 border&quot;]/section[@class=&quot;chakra-container css-1wv7j7a&quot;]/div[@class=&quot;css-11wsct4&quot;]/div[@class=&quot;chakra-table__container css-zipzvv&quot;]/table[@class=&quot;chakra-table css-5605sr&quot;]/tbody[@class=&quot;css-0&quot;]/tr[@class=&quot;css-o2eiba&quot;]/td[@class=&quot;css-3hllpf&quot;]/p[@class=&quot;chakra-text css-mahiel&quot;]</value>
+      <webElementGuid>05107ac3-df33-425f-9391-aff33802ef13</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[2]/section/div/div[2]/table/tbody/tr/td[3]/p</value>
+      <webElementGuid>3a6d060a-17e0-420a-834a-daa79f442378</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PS-4FEDE55A20974F3'])[1]/following::p[2]</value>
+      <webElementGuid>ba65f187-80ee-4205-82c8-c99370f4264b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aksi'])[1]/following::p[2]</value>
+      <webElementGuid>732ccc89-eaca-49b4-b963-cbc676cd4bf6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ditolak'])[1]/preceding::p[3]</value>
+      <webElementGuid>7c1a34a6-930d-4683-9daf-25725cfb7621</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='--'])[1]/preceding::p[3]</value>
+      <webElementGuid>a9ea3a1f-b0ca-4f26-942f-a7d68ed201b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='madvier83@gmail.com']/parent::*</value>
+      <webElementGuid>f25ce93e-643e-4e0c-a3f9-91c3fe93a8f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[3]/p</value>
+      <webElementGuid>531e269a-ba41-414e-980b-9cd30c5afee7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'madvier83@gmail.com' or . = 'madvier83@gmail.com')]</value>
+      <webElementGuid>27f03060-a701-4cb4-9100-dc705838152b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

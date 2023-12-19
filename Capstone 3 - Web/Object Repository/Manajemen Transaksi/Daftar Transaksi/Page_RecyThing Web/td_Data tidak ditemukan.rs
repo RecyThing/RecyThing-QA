@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_Data tidak ditemukan</name>
+   <tag></tag>
+   <elementGuidId>becabf63-5f5d-4e7a-899a-7b31c6a612c6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>td.css-wxrlk7</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div[2]/section/div/div[2]/table/tbody/tr/td</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>0875d6c7-981b-4af2-a5f4-41b24bfff130</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>colspan</name>
+      <type>Main</type>
+      <value>7</value>
+      <webElementGuid>ed640fda-018f-4f77-bba7-5418ccb5d3b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-wxrlk7</value>
+      <webElementGuid>0228f8c1-cc16-4195-9898-bd50a20134b0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Data tidak ditemukan</value>
+      <webElementGuid>98ec161a-8c86-4577-80a1-3beaa08eef4b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex&quot;]/div[@class=&quot;w-full ml-[312px]&quot;]/div[@class=&quot;mt-12 border&quot;]/section[@class=&quot;chakra-container css-1wv7j7a&quot;]/div[@class=&quot;css-11wsct4&quot;]/div[@class=&quot;chakra-table__container css-zipzvv&quot;]/table[@class=&quot;chakra-table css-5605sr&quot;]/tbody[@class=&quot;css-0&quot;]/tr[@class=&quot;css-1xshoki&quot;]/td[@class=&quot;css-wxrlk7&quot;]</value>
+      <webElementGuid>d18be9b4-0488-467e-937f-1254f6f3247d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[2]/section/div/div[2]/table/tbody/tr/td</value>
+      <webElementGuid>7422221f-19b2-4f79-bf16-28d801635524</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aksi'])[1]/following::td[1]</value>
+      <webElementGuid>ed8f3187-7e46-418b-a19b-db716ec61ee9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[1]/following::td[1]</value>
+      <webElementGuid>83e1cda8-4e65-4dcb-8cf5-937676f9e8d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::td[1]</value>
+      <webElementGuid>e0d86ed6-84e1-4fc3-b43d-f133173e63dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::td[1]</value>
+      <webElementGuid>c164caf2-55cc-4ea1-89e3-123f5a0cd6ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Data tidak ditemukan']/parent::*</value>
+      <webElementGuid>186c95ab-7e19-4555-affd-cac1839f03a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td</value>
+      <webElementGuid>59c68ec8-d509-4897-941b-b01c6a42fee3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Data tidak ditemukan' or . = 'Data tidak ditemukan')]</value>
+      <webElementGuid>7fb6ae08-4a2f-47e6-ab20-1ef085b05bcb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

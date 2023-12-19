@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Tantangan Besar, Peluang Besar untuk Perubahan</name>
+   <tag></tag>
+   <elementGuidId>9f38ecc4-7d2d-48a2-bc5f-b8f79717497f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div[2]/div/div/div[2]/div[2]/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>d9ed879b-f486-4ddd-8c26-13f17b09fc95</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-2 text-sm font-medium max-w-[220px] max-h-12 overflow-2-lines overflow-hidden</value>
+      <webElementGuid>abea941d-6637-4e0b-8f7d-ca1e029d36ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tantangan Besar, Peluang Besar untuk Perubahan</value>
+      <webElementGuid>2f0887f9-8ab1-42a8-97de-77473f178c01</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex&quot;]/div[@class=&quot;w-full ml-[312px]&quot;]/div[@class=&quot;mt-12 border&quot;]/div[@class=&quot;pt-6 px-5 pb-5 w-full min-h-screen bg-[#EBEBF0]&quot;]/div[@class=&quot;mt-4 p-6 rounded-2xl bg-white&quot;]/div[@class=&quot;mb-10 flex flex-wrap gap-10&quot;]/div[@class=&quot;cursor-pointer shadow-md w-[220px] h-[244px] rounded-xl&quot;]/p[@class=&quot;p-2 text-sm font-medium max-w-[220px] max-h-12 overflow-2-lines overflow-hidden&quot;]</value>
+      <webElementGuid>8361e062-10f2-47a1-89b2-2d539680b081</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[2]/div/div/div[2]/div[2]/p</value>
+      <webElementGuid>ba480903-e0e3-44cd-bbbd-1cc75d9ecfeb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::p[5]</value>
+      <webElementGuid>19dc5e00-54a1-4608-a693-83664761579a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::p[5]</value>
+      <webElementGuid>28254998-2119-4117-a09b-70e13d389786</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Tantangan Besar, Peluang Besar untuk Perubahan']/parent::*</value>
+      <webElementGuid>0d7e7bbd-5a2f-4d4d-a40c-adbd0e416555</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div[2]/p</value>
+      <webElementGuid>49f37f7f-7cd8-4d44-9ac1-4cc255c1b389</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Tantangan Besar, Peluang Besar untuk Perubahan' or . = 'Tantangan Besar, Peluang Besar untuk Perubahan')]</value>
+      <webElementGuid>5dda3fa1-de84-4a5f-9a45-24d11eb07b9f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -47,18 +47,30 @@ class Login {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	@Given("I want to write a step with (.*)")
-	def I_want_to_write_a_step_with_name(String name) {
-		println name
+	@Given("User navigated to Login Page")
+	def openLoginPage() {
+		WebUI.openBrowser('')
+
+		WebUI.navigateToUrl('https://develop--recything-web.netlify.app/login')
 	}
 
-	@When("I check for the (\\d+) in step")
-	def I_check_for_the_value_in_step(int value) {
-		println value
+	@When("User input (.*) and (.*)")
+	def inputForLogin(String email, String password) {
+		WebUI.setText(findTestObject('Login/Page_RecyThing Web/input_Email_email'), 'superadmin@gmail.com')
+
+		WebUI.setEncryptedText(findTestObject('Login/Page_RecyThing Web/input_Email_password'), 'aeHFOx8jV/A=')
 	}
 
-	@Then("I verify the (.*) in step")
-	def I_verify_the_status_in_step(String status) {
-		println status
+	@And("User click Login Button")
+	def clickLoginButton() {
+		WebUI.click(findTestObject('Login/Page_RecyThing Web/button_Login'))
+	}
+
+
+	@Then("User get directed to Homepage")
+	def directedHomepage() {
+		WebUI.verifyElementVisible(findTestObject('Login/Page_RecyThing Web/verify_Dashboard'))
+
+		WebUI.closeBrowser()
 	}
 }

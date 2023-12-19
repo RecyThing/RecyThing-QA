@@ -8,7 +8,7 @@ import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 
 public class ResetPassword {
     protected String url = "https://api.recything.my.id/users/profile/reset-password";
-    protected String token = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDI3NTAwNjMsImlkIjoiMDM2ODMwMTUtODE4Ny00MmM0LTkwMDItNGM4MzE1ZDk2ZmNjIiwicm9sZSI6IiJ9._ozULmZWA7TFtJWUsXDhamtww2p1BUxbngqy6n401dM";
+    protected String token = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDMwMTI5MTksImlkIjoiMDM2ODMwMTUtODE4Ny00MmM0LTkwMDItNGM4MzE1ZDk2ZmNjIiwicm9sZSI6IiJ9.y_9b3osd5IkNPDlYca2yX3fvDpXqTRI3CFAnsnNjSWQ";
     @Step("I set Patch Reset Password On Profile Endpoint With Correct Data")
     public String setRPOPPEndpoint1() {
         return url;
@@ -83,5 +83,5 @@ public class ResetPassword {
 
         restAssuredThat(response -> response.statusCode(400));
     }
-    
+
 }

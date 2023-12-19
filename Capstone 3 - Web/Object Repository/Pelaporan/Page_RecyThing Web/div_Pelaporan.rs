@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Pelaporan</name>
+   <tag></tag>
+   <elementGuidId>7f2908c5-4c30-4cd4-b740-e35e17c0cffe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div[2]/div[3]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>70bc9758-e793-4b27-92ce-1a3405857a7f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>pl-4 pr-3 py-3 flex justify-between rounded-lg
+      hover:bg-slate-100</value>
+      <webElementGuid>cd2d20e4-c825-434c-ba30-9a91cfcfaf65</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pelaporan</value>
+      <webElementGuid>3411d320-40a0-48ac-aed2-fd8dd3d68f75</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex&quot;]/div[@class=&quot;fixed px-6 pt-8 pb-6 hide-scrollbar transition-all overflow-scroll w-[312px] min-w-[312px]
+	bg-white z-10 min-h-screen max-h-screen border-r border-[#C7C9D9]&quot;]/div[@class=&quot;flex flex-col gap-4&quot;]/div[@class=&quot;cursor-pointer min-w-[263px]&quot;]/div[@class=&quot;pl-4 pr-3 py-3 flex justify-between rounded-lg
+      hover:bg-slate-100&quot;]</value>
+      <webElementGuid>07c4cd75-4019-44bd-9590-a643f16eca26</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div[2]/div[3]/div</value>
+      <webElementGuid>eb0d2578-4085-4538-873b-4ea30fc1644b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::div[76]</value>
+      <webElementGuid>db44e101-31a6-4374-ab5a-67ce2648bc07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nama Lengkap'])[1]/preceding::div[76]</value>
+      <webElementGuid>13880ddf-ce24-4c8e-8f03-046f8080ec74</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[3]/div</value>
+      <webElementGuid>6acf5457-cae2-4bec-a8ef-44e3a1a5d1a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Pelaporan' or . = 'Pelaporan')]</value>
+      <webElementGuid>582f2286-ecb0-4720-b33f-50e1dcddbdde</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Membuka Peluang untuk Lingkungan yang Lebih Bersahabat</name>
+   <tag></tag>
+   <elementGuidId>903381e3-ba8d-4800-9291-5dd582e4ed60</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div[2]/div/div/div[2]/div[7]/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>1d0b0779-cac4-472a-8a43-01e10eea8a57</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>p-2 text-sm font-medium max-w-[220px] max-h-12 overflow-2-lines overflow-hidden</value>
+      <webElementGuid>2eadb80d-7094-4b97-a4c0-1a4ff1c72f8c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Membuka Peluang untuk Lingkungan yang Lebih Bersahabat</value>
+      <webElementGuid>fe09add8-8fff-46e8-bc2c-18a0cea11a68</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex&quot;]/div[@class=&quot;w-full ml-[312px]&quot;]/div[@class=&quot;mt-12 border&quot;]/div[@class=&quot;pt-6 px-5 pb-5 w-full min-h-screen bg-[#EBEBF0]&quot;]/div[@class=&quot;mt-4 p-6 rounded-2xl bg-white&quot;]/div[@class=&quot;mb-10 flex flex-wrap gap-10&quot;]/div[@class=&quot;cursor-pointer shadow-md w-[220px] h-[244px] rounded-xl&quot;]/p[@class=&quot;p-2 text-sm font-medium max-w-[220px] max-h-12 overflow-2-lines overflow-hidden&quot;]</value>
+      <webElementGuid>eb22733b-4d18-4a36-9f23-4aa5f023787c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[2]/div/div/div[2]/div[7]/p</value>
+      <webElementGuid>7162b930-91cd-49ba-8eac-3e55cce2fc41</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::p[6]</value>
+      <webElementGuid>644a82e6-5fe6-4e82-ada7-473180baceb6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::p[6]</value>
+      <webElementGuid>f68ff5b3-13ac-4b2a-ba20-b80b61411cac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Membuka Peluang untuk Lingkungan yang Lebih Bersahabat']/parent::*</value>
+      <webElementGuid>cf5b79cc-1556-4465-8fb0-20e19c410a11</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/p</value>
+      <webElementGuid>f3afdcb1-15cc-47cb-992e-f7c3c18f2503</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Membuka Peluang untuk Lingkungan yang Lebih Bersahabat' or . = 'Membuka Peluang untuk Lingkungan yang Lebih Bersahabat')]</value>
+      <webElementGuid>6248b806-3d9a-49b8-ba0c-e4defb15ba98</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

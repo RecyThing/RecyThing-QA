@@ -8,7 +8,7 @@ import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 
 public class Article {
     protected String url = "https://api.recything.my.id/articles";
-    protected String token = "";
+    protected String token = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDMwMTI5MTksImlkIjoiMDM2ODMwMTUtODE4Ny00MmM0LTkwMDItNGM4MzE1ZDk2ZmNjIiwicm9sZSI6IiJ9.y_9b3osd5IkNPDlYca2yX3fvDpXqTRI3CFAnsnNjSWQ";
     @Step("I set Get Article Endpoint With Correct Data")
     public String setGetArticles(){
         return url;
@@ -23,7 +23,7 @@ public class Article {
 
     @Step("I receive Get Article valid HTTP response code 200")
     public void receiveWrongGETArticlesResponseCode200(){
-        restAssuredThat(response -> response.statusCode(401));
+        restAssuredThat(response -> response.statusCode(200));
     }
 
     @Step("I set POST Article Endpoint with Wrong HTTP Request")
@@ -45,7 +45,7 @@ public class Article {
 
     @Step("I receive POST Article valid HTTP response code 404")
     public void receivePostArticlesHttpResponseCode405() {
-        restAssuredThat(response -> response.statusCode(401));
+        restAssuredThat(response -> response.statusCode(404));
     }
 
     @Step("I set Get Article Endpoint With Wrong URL")
