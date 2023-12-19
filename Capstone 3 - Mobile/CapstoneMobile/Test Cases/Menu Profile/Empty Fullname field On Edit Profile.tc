@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Empty Fullname field On Edit Profile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f32a0196-4c60-48be-b6ad-4d118c56f40f</testCaseGuid>
+</TestCaseEntity>

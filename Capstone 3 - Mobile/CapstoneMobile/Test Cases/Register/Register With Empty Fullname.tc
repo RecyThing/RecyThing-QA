@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Register With Empty Fullname</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d5e2d634-be84-4a89-bc82-14e1a44c6fe1</testCaseGuid>
+</TestCaseEntity>
