@@ -23,7 +23,7 @@ public class Article {
 
     @Step("I receive Get Article valid HTTP response code 200")
     public void receiveWrongGETArticlesResponseCode200(){
-        restAssuredThat(response -> response.statusCode(401));
+        restAssuredThat(response -> response.statusCode(200));
     }
 
     @Step("I set POST Article Endpoint with Wrong HTTP Request")
@@ -45,7 +45,7 @@ public class Article {
 
     @Step("I receive POST Article valid HTTP response code 404")
     public void receivePostArticlesHttpResponseCode405() {
-        restAssuredThat(response -> response.statusCode(401));
+        restAssuredThat(response -> response.statusCode(404));
     }
 
     @Step("I set Get Article Endpoint With Wrong URL")

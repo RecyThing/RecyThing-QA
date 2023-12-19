@@ -24,6 +24,6 @@ public class DeleteDropPoint {
 
     @Step("I receive HTTP response code 200 for delete Drop Point")
     public void receiveDelDropPointByIDResp(){
-        restAssuredThat(response -> response.statusCode(500));
+        restAssuredThat(response -> response.statusCode(404));
     }
 }

@@ -24,7 +24,7 @@ public class GetDetailAdmin {
 
     @Step("I receive HTTP response code 200 for view detail Admin")
     public void receiveAdminResp1(){
-        restAssuredThat(response -> response.statusCode(404));
+        restAssuredThat(response -> response.statusCode(200));
     }
 
     @Step("I set POST method to view detail Admin with invalid request method")
