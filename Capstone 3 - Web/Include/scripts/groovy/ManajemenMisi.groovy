@@ -91,9 +91,9 @@ class ManajemenMisi {
 	@Then("User clicks button Kembali to close the Detail Mission MM1")
 	def clickKembaliDetailMM1(){
 		WebUI.click(findTestObject('Manajemen Misi/Page_RecyThing Web/button_Kembali-Daftar Misi-All'))
-		
+
 		WebUI.verifyElementPresent(findTestObject('Manajemen Misi/Page_RecyThing Web/Search-Daftar Misi'), 0)
-		
+
 		WebUI.closeBrowser()
 	}
 
@@ -105,7 +105,7 @@ class ManajemenMisi {
 	@Then("User clicks button Batal to cancel creating a new mission")
 	def clickBatalTambahMisi(){
 		WebUI.click(findTestObject('Manajemen Misi/Page_RecyThing Web/button_Batal_Tambah Data-DaftarMisi'))
-		
+
 		WebUI.closeBrowser()
 	}
 
@@ -117,9 +117,9 @@ class ManajemenMisi {
 	@Then("User clicks button Batal to close the Update Detail Mission Page MM1")
 	def clickBatalEditMissionMM1(){
 		WebUI.click(findTestObject('Manajemen Misi/Page_RecyThing Web/button_Batal-Edit-DaftarMisi-All'))
-		
+
 		WebUI.verifyElementPresent(findTestObject('Manajemen Misi/Page_RecyThing Web/Search-Daftar Misi'), 0)
-		
+
 		WebUI.closeBrowser()
 	}
 
@@ -131,9 +131,9 @@ class ManajemenMisi {
 	@Then("User clicks button Batal to close the Delete Pop-Up Mission MM1")
 	def clickBatalDeleteMissionMM1(){
 		WebUI.click(findTestObject('Manajemen Misi/Page_RecyThing Web/button_Batal-Hapus-DaftarMisi-All'))
-		
+
 		WebUI.verifyElementPresent(findTestObject('Manajemen Misi/Page_RecyThing Web/Search-Daftar Misi'), 0)
-		
+
 		WebUI.closeBrowser()
 	}
 
@@ -145,7 +145,7 @@ class ManajemenMisi {
 	@Then("Verify that the data displayed matches the keywords searched MM1")
 	def verifyMatchKeywordsMM1(){
 		WebUI.verifyElementPresent(findTestObject('Manajemen Misi/Page_RecyThing Web/p_Mari Bersih Bersih'), 0)
-		
+
 		WebUI.closeBrowser()
 	}
 
@@ -157,7 +157,7 @@ class ManajemenMisi {
 	@Then("Verify that no data with the invalid keyword can be found MM1")
 	def verifyNotFoundKeywordsMM1(){
 		WebUI.verifyElementPresent(findTestObject('Manajemen Misi/Page_RecyThing Web/Daftar Misi_Data tidak ditemukan'), 0)
-		
+
 		WebUI.closeBrowser()
 	}
 
@@ -169,31 +169,31 @@ class ManajemenMisi {
 	@Then("Verify that the data displayed changes according to the page MM1")
 	def verifyPagesChangeMM1(){
 		WebUI.verifyElementPresent(findTestObject('Manajemen Misi/Page_RecyThing Web/Search-Daftar Misi'), 0)
-		
+
 		WebUI.closeBrowser()
 	}
-	
+
 	@And("User clicks a mission to view Mission Details on Aktif Tab MM1")
 	def clickViewDetailAktifMissionMM1(){
 		WebUI.click(findTestObject('Manajemen Misi/Page_RecyThing Web/button_Aktif5'))
-		
+
 		WebUI.click(findTestObject('Manajemen Misi/Page_RecyThing Web/View Detail-Misi Aktif'))
 	}
 
 	@Then("Verify the Mission Detail is displayed on Aktif Tab MM1")
 	def verifyDetailAktifMissionMM1(){
 		WebUI.verifyElementPresent(findTestObject('Manajemen Misi/Page_RecyThing Web/button_Kembali-Detail-Misi Aktif'), 0)
-		
+
 		WebUI.closeBrowser()
 	}
 
 	@Then("User clicks button Kembali to close the Detail Mission on Aktif Tab MM1")
 	def verifyCloseDetailAktifMissionMM1(){
 		WebUI.click(findTestObject('Manajemen Misi/Page_RecyThing Web/button_Kembali-Detail-Misi Aktif'), FailureHandling.STOP_ON_FAILURE)
-		
+
 		WebUI.closeBrowser()
 	}
-	
+
 	@And("User clicks icon Edit to update a mission detail on Aktif Tab")
 	def clickUpdateOnAktifMM1(){
 		WebUI.click(findTestObject('Manajemen Misi/Page_RecyThing Web/button_Batal-Edit-Daftar Misi-Aktif'))
@@ -202,29 +202,29 @@ class ManajemenMisi {
 	@Then("User clicks button Batal to close the Update Detail Mission Page on Aktif Tab MM1")
 	def clickBatalUpdateOnAktifMM1(){
 		WebUI.verifyElementPresent(findTestObject('Manajemen Misi/Page_RecyThing Web/Search-Daftar Misi'), 0)
-		
+
 		WebUI.closeBrowser()
 	}
-	
+
 	@And("User clicks a mission to view Mission Details on Tenggat Tab MM1")
 	def verifyDetailTenggatMissionMM1(){
 		WebUI.click(findTestObject('Manajemen Misi/Page_RecyThing Web/button_Melewati Tenggat6'))
-		
+
 		WebUI.click(findTestObject('Manajemen Misi/Page_RecyThing Web/View Detail-Misi Melewati Tenggat'))
 	}
 
 	@Then("Verify the Mission Detail is displayed on Tenggat Tab MM1")
 	def verifyCloseDetailTenggatMissionMM1(){
 		WebUI.verifyElementPresent(findTestObject('Manajemen Misi/Page_RecyThing Web/button_Kembali-Detail-Misi Melewati Tenggat'),
-			0)
-		
+				0)
+
 		WebUI.closeBrowser()
 	}
 
 	@Then("User clicks button Kembali to close the Detail Mission on Tenggat Tab MM1")
 	def clickBatalUpdateOnTenggatMM1(){
 		WebUI.click(findTestObject('Manajemen Misi/Page_RecyThing Web/button_Kembali-Detail-Misi Melewati Tenggat'), FailureHandling.STOP_ON_FAILURE)
-		
+
 		WebUI.closeBrowser()
 	}
 }
