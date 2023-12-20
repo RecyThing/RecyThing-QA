@@ -9,7 +9,7 @@ import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 public class GetDetailDropPoint {
     protected String url = "https://api.recything.my.id/admins/manage/drop-points/05cb0304-42cc-4d12-b7d1-10701ddfc1a7";
 
-    String token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDMwMjU3OTYsImlkIjoiMGM5N2UxN2UtZDFiZS00YjU0LWE0MGMtNzgwOThjNTcxNGFjIiwicm9sZSI6InN1cGVyX2FkbWluIn0.Te2WTF9iniKdPzUYC6iCbGN0FPi7sNwshcascO_Qs2o";
+    String token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE3MDMwODkzNjQsImlkIjoiMGM5N2UxN2UtZDFiZS00YjU0LWE0MGMtNzgwOThjNTcxNGFjIiwicm9sZSI6InN1cGVyX2FkbWluIn0.CQsZuYpLDLVxep2nsdouOmwowHAuzhTMR1lamn_tZYM";
 
     @Step("I set GET method to view detail Drop Point with valid request")
     public String setGetDetailDropPoint1(){
